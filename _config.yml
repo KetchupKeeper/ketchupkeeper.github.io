@@ -98,6 +98,24 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: solitude
 
+# --------------------------- start ---------------------------
+# Search
+search:
+  enable: true
+  # type: 使用的搜索引擎 / search engine
+  type: local # local / algolia
+  tags:
+    # - Solitude
+    # - Hexo
+  local:
+    preload: true
+    CDN: # url: search.xml
+
+auto_dir_categorize:
+	enable: true  # options:true, false; default is true
+	force: false # options:true, false; default is false
+# --------------------------- end ---------------------------
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:

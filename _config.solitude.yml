@@ -543,13 +543,13 @@ translate:
 # Right-Sidebar
 # 右下角悬停导航栏
 rightside:
-  enable: false
-  percent: false
+  enable: true
+  percent: true
   hide:
-    enable: false
-    translate: false
-    mode: false
-    aside: false
+    enable: true
+    translate: true
+    mode: true
+    aside: true
 # --------------------------- start ---------------------------
 
 # --------------------------- start ---------------------------
@@ -619,7 +619,7 @@ meting_api: "https://meting.qjqq.cn/?server=:server&type=:type&id=:id&auth=:auth
 # Capsule music
 # 音乐胶囊
 capsule:
-  enable: false
+  enable: true
   # 歌单 ID / 单曲 ID
   id: 5144842535
   # 服务商：netease / qq / xiami / kugou / baidu
@@ -655,11 +655,11 @@ keyboard:
 # Lazyload
 # 图片懒加载
 lazyload:
-  enable: false
+  enable: true
   # post, site
   field: site
   # 加载时替换图
-  placeholder: ''
+  placeholder: /tex/默认.jpg
   # 加载失败替换图
   errorimg: /img/error_load.avif
 # --------------------------- end ---------------------------
@@ -670,10 +670,10 @@ lazyload:
 loading:
   # Full screen loading
   # 全屏加载
-  fullpage: false
+  fullpage: true
   # Loading icon, default is siteicon
   # 加载图标，不写默认siteicon
-  favicon: /img/favicon.png
+  favicon: /tex/卯.png
   # Pace loading
   # Pace 加载
   pace: true
@@ -703,10 +703,10 @@ highlight:
 # --------------------------- start ---------------------------
 # Lightbox
 # 图片灯箱
-lightbox: false
+lightbox: true
 # warning: Please select any one, but cannot be turned on at the same time.
 # 警告: 请任选其一，但不能同时开启。
-fancybox: false # fancybox
+fancybox: true # fancybox
 mediumZoom: false # mediumZoom
 # --------------------------- end ---------------------------
 
@@ -715,25 +715,25 @@ mediumZoom: false # mediumZoom
 # Turn the entire site gray on memorable days.
 # 在纪念日整个网站变灰
 memorial:
-  enable: false
+  enable: true
   date:
-  #  - 7-7
-  #  - 9-18
-  #  - 12-13
+   - 7-7
+   - 9-18
+   - 12-13
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
 # OpenGraph
 OpenGraph:
-  enable: false
+  enable: true
   options:
-    # twitter_card:
-    # twitter_image:
-    # twitter_id:
-    # twitter_site:
-    # google_plus:
-    # fb_admins:
-    # fb_app_id:
+    twitter_card:
+    twitter_image:
+    twitter_id:
+    twitter_site:
+    google_plus:
+    fb_admins:
+    fb_app_id:
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -762,10 +762,10 @@ katex:
 # verification
 # 验证
 verify_site:
-  # - name: google-site-verification
-  #   content: xxxxxx
-  # - name: baidu-site-verification
-  #   content: xxxxxxx
+  - name: google-site-verification
+    content: xxxxxx
+  - name: baidu-site-verification
+    content: xxxxxxx
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -773,7 +773,7 @@ verify_site:
 # CSS 前缀
 # When turned on, it will automatically prefix the CSS (to get better browser support), but this will increase the size of the CSS file.
 # 开启后会自动给 CSS 加前缀（以获得更好的浏览器支持），但这会增加 CSS 文件的大小。
-css_prefix: false
+css_prefix: true
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -896,7 +896,7 @@ search:
 # Music Page
 # 音乐馆
 music:
-  enable: false
+  enable: true
   # 歌单 ID / 单曲 ID
   id: 5144842535
   # 服务商：netease / qq / xiami / kugou / baidu
@@ -915,7 +915,7 @@ music:
 # Danmaku Page
 # 弹幕留言页面
 envelope:
-  enable: false
+  enable: true
   line: 10 # 显示行数
   speed: 20 # 播放速度
   hover: true # 鼠标悬停暂停
@@ -938,15 +938,16 @@ says:
 # Recent comments Page
 # 最近评论页面
 recent_comments:
-  enable: false
+  enable: true
   limit: 50 # ⚠️waline 仅支持最大50条评论 / ⚠️waline only supports a maximum of 50 comments
   cache: 0.2 # 1 = 1天 / 1 = 1 day
   page: /recentcomments/ # 最近评论页面 / recent comments page
+  img: /img/recent_c.avif
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
 # Busuanzi
-busuanzi: false
+busuanzi: true
 # 0: Original / 1: Custom
 # 0: 原版 / 1: 自定义版
 busuanzi_use: 0
