@@ -24,7 +24,9 @@
     "hexo-renderer-pug": "^3.0.0",
     "hexo-renderer-stylus": "^3.0.1",
     "hexo-server": "^3.0.0",
-    "hexo-theme-landscape": "^1.0.0"
+    "hexo-swpp": "^4.0.0-alpha.122",
+    "hexo-theme-landscape": "^1.0.0",
+    "swpp-backends": "^3.0.0-alpha.702"
   },
   "devDependencies": {
     "compress": "^0.99.0",

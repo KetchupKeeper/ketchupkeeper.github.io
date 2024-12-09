@@ -4,15 +4,16 @@
 
 # Site
 title: 卯相爱吃番茄酱
-subtitle: ''
+subtitle: '番茄酱守护者'
 description: '卯相的博客'
 keywords: '卯相,番茄酱守护者'
-author: John Doe
+author: 卯相
 language: zh-CN
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
+## 这里设置你的网址，如果是GitHub Page，设置URL为‘https://username.github.io/project’
 url: https://KetchupKeeper.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -98,19 +99,17 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: solitude
 
+# Plug-in
 # --------------------------- start ---------------------------
+# 1、hexo-generator-searchdb  本地搜索插件
 # Search
 search:
-  enable: true
-  # type: 使用的搜索引擎 / search engine
-  type: local # local / algolia
-  tags:
-    # - Solitude
-    # - Hexo
-  local:
-    preload: true
-    CDN: # url: search.xml
+  path: search.xml
+  field: post
+  content: true
+  format: html
 
+# Hexo-directory-category 智能分类插件/文件夹分类
 auto_dir_categorize:
 	enable: true  # options:true, false; default is true
 	force: false # options:true, false; default is false

@@ -20,8 +20,8 @@
 site:
   name:
     class: text # text / i_class / img
-    custom: Solitude # Solitude / fas fa-ghost / /img/pwa/favicon.ico
-  icon: /img/pwa/favicon.ico # Site icon / 网站图标
+    custom: 卯相的小破站 # Solitude / fas fa-ghost / /img/pwa/favicon.ico
+  icon: /tex/作者头像.png # Site icon / 网站图标
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -31,8 +31,14 @@ nav:
   # Left Box
   # 左侧盒子
   group:
-   project: # name
-     Solitude: https://github.com/everfu/hexo-theme-solitude || /img/pwa/favicon.ico # name: url || icon
+   Social Circle: # name
+     CSDN: https://blog.csdn.net/qq_63656904?type=blog || /icon/csdn.png # name: url || icon
+     微博: https://weibo.com/u/6336058768 || /icon/weibo.png
+     GGAC: https://www.ggac.com/user/435914 || /icon/ggac.png
+     BiliBili: https://space.bilibili.com/32775082?spm_id_from=333.999.0.0 || /icon/bilibili.png
+   Git:
+     GitHub: https://github.com/KetchupKeeper || /icon/github.png
+     Gitee: https://gitee.com/wiajwnaw || /icon/gitee.png
 
   # Menu
   # 菜单
@@ -45,8 +51,9 @@ nav:
     友链:
       朋友圈: /moments/ || fas fa-wifi
       友情链接: /links/ || fas fa-user-group
-      宝藏博主: javascript:travelling() || fas fa-gift
+      宝藏博主: // || fas fa-gift
     关于:
+      关于本站: /about/ || iconfont icon-guanyuwomen
       我的装备: /equipment/ || fas fa-laptop
       在线工具: /tlink/ || fas fa-toolbox
       音乐馆: /music/ || fas fa-music
@@ -69,8 +76,8 @@ nav:
 hometop:
   enable: true
   banner:
-    title: # 宁静致远 <br> 热爱生活 # 标题
-    url: Hexo Theme Solitude # 小字
+    title: Technical Art <br> TA/CG # 宁静致远 <br> 热爱生活 # 标题
+    url: 技术美术/图形学爱好者 # 小字
     icon:
       HTML: # name
         img: https://i.postimg.cc/vBWVnY8q/html.png # url
@@ -91,13 +98,14 @@ hometop:
         img: https://i.postimg.cc/nhgjwjCS/git.png
         color: "#df5b40"
   group:
-    # 热门: /tags/Fire/ || fas fa-fire || linear-gradient(to right,#f65,#ffbf37)
+     T/A: /tage/TA/ || fas fa-fire || linear-gradient(to right,#f65,#ffbf37)
+     技术: /tage/Technology/ || iconfont icon-zhishi || linear-gradient(to right,#3d9dff,#2b63d5)
   recommendList:
     enable: true
-    sup: 置顶
-    title: Solitude 官方文档
-    url: https://solitude.js.org/
-    img: /img/default.avif
+    sup: 卯相的小破站
+    title: BiliBili-干杯！
+    url: https://space.bilibili.com/32775082?spm_id_from=333.999.0.0
+    img: /tex/Bilibili.png
     color: "none"
 
 # Article Top Banner
@@ -116,13 +124,13 @@ aside:
   # Sticky: 固定位置 / noSticky: 不固定位置
   home: # 在主页显示的侧边栏信息
     noSticky: about
-    Sticky: allInfo
+    Sticky: newestPost,newest_comment,allInfo
   post: # 在文章页显示的侧边栏信息
     noSticky: about
-    Sticky: newestPost
+    Sticky: newestPost,newest_comment,allInfo
   page: # 在页面中显示的侧边栏信息
     noSticky: about
-  Sticky: newestPost,allInfo
+  Sticky: newestPost,newest_comment,allInfo
   # 菜单栏位置(0: 左 1: 右)
   position: 1 # Sidebar positioning(0: left 1: right)
 
@@ -133,13 +141,14 @@ aside:
     style: 0 # 0: default 1: style 1 2: style 2
     author:
       img: /tex/fanzao.jpg # url
-      sticker: /tex/卯.png # url, 24x24 size
+      sticker: /tex/作者头像.png # url, 24x24 size
     url: https://everfu.cn # link / 点击头像跳转链接
-    background:  #https://s3.qjqq.cn/47/663af296b85f4.webp!color # Background image(Invalid if style is 0)
+    background: #https://s3.qjqq.cn/47/663af296b85f4.webp!color # Background image(Invalid if style is 0)
     # Content(Invalid if style is 0)
     # 内容(Style 0 无效)
-    content:  这是我的博客 / This is my Blog
-    content2:  一个热爱生活的人 / A person who loves life
+    # ---------------https://wikiemoji.org/zh----------Emoji表情包-------------- 
+    content:  这是我的博客
+    content2:  一个热爱图形学的大学生<br>🎨美术起手<br>💻程序打底<br>⚙️对计算机硬件脑热<br>🏃热衷长跑
     # Style 2 is invalid
     # Style 2 无效
     sayhello:
@@ -157,8 +166,11 @@ aside:
     # social
     # 社交信息图标
     information:
-      Github: https://github.com/everfu || fab fa-github # Name: link || icon
-      Bilibili: https://space.bilibili.com/1329819902 || fab fa-bilibili
+      GGAC: https://www.ggac.com/user/435914 || iconfont icon-ggac-logo # Name: link || icon
+      CSDN: https://blog.csdn.net/qq_63656904?type=blog || iconfont icon-csdn
+      微博: https://weibo.com/u/6336058768 || iconfont icon-weibo
+      
+      
   # --------------------------- end ---------------------------
 
   # --------------------------- start ---------------------------
@@ -188,7 +200,11 @@ aside:
     limit: 20 # Number of tags displayed
     # Highlighted tags
     highlight_list:
-      # - Hexo
+       - TA
+       - Shader
+       - Unreal
+       - Unity
+       - DCC
   # --------------------------- end ---------------------------
 
   # --------------------------- start ---------------------------
@@ -247,7 +263,7 @@ page:
     # Default image when no cover is set
     # 未设置封面时的默认图片
     cover:
-      # - /img/default.png # 默认图片 / default cover
+       - /img/default.png # 默认图片 / default cover
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -261,7 +277,7 @@ post:
     # Default image when no cover is set
     # 未设置封面时的默认图片
     cover:
-      # -  # 默认图片 / default cover
+       - /img/default.png # 默认图片 / default cover
     # Location
     # 位置
     locate: 南昌
@@ -309,8 +325,8 @@ post:
     appreciators: /about/ # Reward page
     # Reward Title
     # 打赏标题
-    title:  Thanks for your appreciation. / 感谢您的赞赏
-    desc:  Because of your support, I realize the value of writing articles. / 由于您的支持，我才能够实现写作的价值。
+    title: 感谢您的赞赏
+    desc:  由于您的支持，我才能够实现写作的价值。
     # Reward list
     # 打赏列表
     list:
@@ -324,7 +340,7 @@ post:
         color: var(--efu-green)
       - name: 支付宝
         qcode: /tex/支付宝.jpg
-        url: https://s3.qjqq.cn/47/66d00a4c7107d.png!color
+        url: /about/
         color: var(--efu-blue)
 
   # Share icon
@@ -347,7 +363,7 @@ post:
   covercolor:
     enable: true
     # local: local color / api: api color / ave: oss average color
-    mode: local
+    mode: ave
     # api address / api 地址
     api: https://api.qjqq.cn/api/Imgcolor?img=
     # Storage / 缓存时间
@@ -362,6 +378,7 @@ post:
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
+# 自定义主题
 # Custom Theme Color
 theme_color:
   dark: "#ffc848" # dark
@@ -435,6 +452,7 @@ index_post_list:
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
+# 推荐文章
 # Related articles
 # 相关文章
 related_post:
@@ -484,7 +502,7 @@ right_menu:
 #  information
 # 复制信息
 copy:
-  enable: false
+  enable: true
   # Turn on Link copyright information after copying.
   # 复制后链接版权信息
   copyright:
@@ -558,13 +576,13 @@ rightside:
 footer:
   # 信息社交图标
   information:
-    author: /tex/卯.png # img url / false
+    author: /tex/作者头像.png # img url / false
     left:
-       Github: https://github.com/everfu || fab fa-github # 名称: 链接 || 图标
-       Mail: mailto:o@everfu.org || fab fa-envelope
+       Github: https://github.com/KetchupKeeper || iconfont icon-github #fab fa-github # 名称: 链接 || 图标
+       Mail: mailto:o@everfu.org || iconfont icon-youxiang
     right:
-       Bilibili: https://space.bilibili.com/1329819902 || fab fa-bilibili
-       Douyin: https://v.douyin.com/iJsLc8jt/ || fab fa-tiktok
+       Bilibili: https://space.bilibili.com/32775082?spm_id_from=333.999.0.0 || iconfont icon-bilibilidonghua #fab fa-bilibili
+       Douyin: https://www.douyin.com/user/MS4wLjABAAAAOjfj-vlbtdyAIb83TlNqRZztKM9Yoflv9LfMMB9T_OM?from_tab_name= || fab fa-tiktok
   group:
     导航:
       Archives: /archives/
@@ -621,7 +639,7 @@ meting_api: "https://meting.qjqq.cn/?server=:server&type=:type&id=:id&auth=:auth
 capsule:
   enable: true
   # 歌单 ID / 单曲 ID
-  id: 5144842535
+  id: 12885429604
   # 服务商：netease / qq / xiami / kugou / baidu
   server: netease
   # 类型：playlist / song
@@ -673,7 +691,7 @@ loading:
   fullpage: true
   # Loading icon, default is siteicon
   # 加载图标，不写默认siteicon
-  favicon: /tex/卯.png
+  favicon: /tex/作者头像.png
   # Pace loading
   # Pace 加载
   pace: true
@@ -706,8 +724,8 @@ highlight:
 lightbox: true
 # warning: Please select any one, but cannot be turned on at the same time.
 # 警告: 请任选其一，但不能同时开启。
-fancybox: true # fancybox
-mediumZoom: false # mediumZoom
+fancybox: false # fancybox
+mediumZoom: true # mediumZoom
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -783,24 +801,25 @@ extends:
   # Insert in head
   # 插入到 head
   head:
-  #  - <script src="https://cdn.bootcdn.net/ajax/libs/pace/1.2.4/pace.min.js"></script>
+    - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_4775664_barfi6jiizw.css" />
+    #- <script src="https://cdn.bootcdn.net/ajax/libs/pace/1.2.4/pace.min.js"></script>
 
   # Insert in body
   # 插入到 body
   body:
-  #  - <script src="https://cdn.bootcdn.net/ajax/libs/pace/1.2.4/pace.min.js"></script>
+    #- <script src="https://cdn.bootcdn.net/ajax/libs/pace/1.2.4/pace.min.js"></script>
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
 # PWA
 # Progressive Web App
 pwa:
-  enable: false
+  enable: true
   manifest: /manifest.json # manifest.json
   theme_color: "#006a73" # Theme color
   mask_icon: /img/pwa/favicon.png # Mask icon
   apple_touch_icon: /img/pwa/favicon.png # Apple touch icon
-  bookmark_icon: /img/pwa/favicon.png # Bookmark icon
+  bookmark_icon: /tex/作者头像.png # Bookmark icon
   favicon_32_32: /img/pwa/favicon_32.png # 32x32 icon
   favicon_16_16: /img/pwa/favicon_16.png # 16x16 icon
 # --------------------------- end ---------------------------
@@ -878,7 +897,7 @@ giscus:
 # --------------------------- start ---------------------------
 # Search
 search:
-  enable: false
+  enable: true
   # type: 使用的搜索引擎 / search engine
   type: local # local / algolia
   tags:
@@ -888,8 +907,8 @@ search:
     # hits:
     #   per_page: 6
   local:
-    preload: false
-    CDN: # url: search.xml
+    preload: true
+    CDN: search.xml # url: search.xml
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -898,7 +917,7 @@ search:
 music:
   enable: true
   # 歌单 ID / 单曲 ID
-  id: 5144842535
+  id: 513979001
   # 服务商：netease / qq / xiami / kugou / baidu
   server: netease
   # 类型：playlist / song
@@ -927,8 +946,8 @@ envelope:
 # Says Page
 # 即可短文
 says:
-  enable: false
-  home_mini: false
+  enable: true
+  home_mini: true
   page: /essay/
   style: 1
   strip: 30
@@ -947,7 +966,7 @@ recent_comments:
 
 # --------------------------- start ---------------------------
 # Busuanzi
-busuanzi: true
+busuanzi: false
 # 0: Original / 1: Custom
 # 0: 原版 / 1: 自定义版
 busuanzi_use: 0
