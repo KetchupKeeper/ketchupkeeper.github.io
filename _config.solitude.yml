@@ -123,14 +123,14 @@ aside:
   # Sticky: Fixed position / noSticky: Not fixed position
   # Sticky: 固定位置 / noSticky: 不固定位置
   home: # 在主页显示的侧边栏信息
-    noSticky: about
-    Sticky: newestPost,newest_comment,allInfo
-  post: # 在文章页显示的侧边栏信息
-    noSticky: about
-    Sticky: newestPost,newest_comment,allInfo
+    noSticky: about,newestPost,newest_comment
+    Sticky: allInfo
+  post: # 在文章页显示的侧边栏信息  
+    noSticky: about,newestPost,newest_comment
+    Sticky: allInfo
   page: # 在页面中显示的侧边栏信息
-    noSticky: about
-  Sticky: newestPost,newest_comment,allInfo
+    noSticky: about,newestPost,newest_comment
+  Sticky: allInfo
   # 菜单栏位置(0: 左 1: 右)
   position: 1 # Sidebar positioning(0: left 1: right)
 
@@ -584,14 +584,14 @@ footer:
        Bilibili: https://space.bilibili.com/32775082?spm_id_from=333.999.0.0 || iconfont icon-bilibilidonghua #fab fa-bilibili
        Douyin: https://www.douyin.com/user/MS4wLjABAAAAOjfj-vlbtdyAIb83TlNqRZztKM9Yoflv9LfMMB9T_OM?from_tab_name= || fab fa-tiktok
   group:
-    导航:
-      Archives: /archives/
-      Categories: /categories/
-      Tags: /tags/
-    排列:
-      Cookies: /cookies/
-      Privacy: /privacy/
-      Copyright: /copyright/
+    # 导航:
+    #   Archives: /archives/
+    #   Categories: /categories/
+    #   Tags: /tags/
+    # 排列:
+    #   Cookies: /cookies/
+    #   Privacy: /privacy/
+    #   Copyright: /copyright/
 
   # 随机友链
   randomlink: false # 随机友链
