@@ -20,8 +20,8 @@
 site:
   name:
     class: text # text / i_class / img
-    custom: 卯相的小破站 # Solitude / fas fa-ghost / /img/pwa/favicon.ico
-  icon: /tex/作者头像.png # Site icon / 网站图标
+    custom: 卯相的小破站 # Solitude / fas fa-ghost / /img/pwa/favicon-T.ico
+  icon-T: /tex/作者头像.png # Site icon-T / 网站图标
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -32,20 +32,20 @@ nav:
   # 左侧盒子
   group:
    Social Circle: # name
-     CSDN: https://blog.csdn.net/qq_63656904?type=blog || /icon/csdn.png # name: url || icon
-     微博: https://weibo.com/u/6336058768 || /icon/weibo.png
-     GGAC: https://www.ggac.com/user/435914 || /icon/ggac.png
-     BiliBili: https://space.bilibili.com/32775082?spm_id_from=333.999.0.0 || /icon/bilibili.png
+     CSDN: https://blog.csdn.net/qq_63656904?type=blog || /icon-T/csdn.png # name: url || icon-T
+     微博: https://weibo.com/u/6336058768 || /icon-T/weibo.png
+     GGAC: https://www.ggac.com/user/435914 || /icon-T/ggac.png
+     BiliBili: https://space.bilibili.com/32775082?spm_id_from=333.999.0.0 || /icon-T/bilibili.png
    Git:
-     GitHub: https://github.com/KetchupKeeper || /icon/github.png
-     Gitee: https://gitee.com/wiajwnaw || /icon/gitee.png
+     GitHub: https://github.com/KetchupKeeper || /icon-T/github.png
+     Gitee: https://gitee.com/wiajwnaw || /icon-T/gitee.png
 
   # Menu
   # 菜单
   menu:
     首页: / # name: link
     文库: # name
-      全部文章: /archives/ || fas fa-folder-closed # item name: link || icon
+      全部文章: /archives/ || fas fa-folder-closed # item name: link || icon-T
       全部分类: /categories/ || fas fa-clone
       全部标签: /tags/ || fas fa-tags
     友链:
@@ -53,7 +53,7 @@ nav:
       友情链接: /links/ || fas fa-user-group
       宝藏博主: // || fas fa-gift
     关于:
-      关于本站: /about/ || iconfont icon-guanyuwomen
+      关于本站: /about/ || icon-Tfont icon-T-guanyuwomen
       我的装备: /equipment/ || fas fa-laptop
       在线工具: /tlink/ || fas fa-toolbox
       音乐馆: /music/ || fas fa-music
@@ -65,7 +65,7 @@ nav:
     custom:
      - name: 开往 # 名字
        url: https://www.travellings.cn/go.html # 跳转链接
-       icon: fas fa-train # 图标
+       icon-T: fas fa-train # 图标
        onclick: # 点击事件
        id: travellings_button # id
 # --------------------------- end ---------------------------
@@ -78,28 +78,70 @@ hometop:
   banner:
     title: Technical Art <br> TA/CG # 宁静致远 <br> 热爱生活 # 标题
     url: 技术美术/图形学爱好者 # 小字
-    icon:
+    icon-T:
       HTML: # name
         img: https://i.postimg.cc/vBWVnY8q/html.png # url
         color: "#e9572b" # color
-      JS:
-        img: https://i.postimg.cc/3N10Ltv2/js.png
-        color: "#f7cb4f"
       Docker:
         img: https://i.postimg.cc/8Pk6Fg24/docker.png
         color: "#57b6e6"
-      Flutter:
-        img: https://i.postimg.cc/hPC7T3gB/flutter.png
-        color: "#ffffff"
-      WebPack:
-        img: https://i.postimg.cc/dVLZBmtT/webpack.png
-        color: "#2e3a41"
       Git:
         img: https://i.postimg.cc/nhgjwjCS/git.png
         color: "#df5b40"
+      # Maya:
+      #   img: /icon-T/Maya.png
+      #   color: "#f7cb4f"
+      # Ps:
+      #   img: /icon-T/Ps.png
+      #   color: "#f7cb4f"
+      # Shader:
+      #   img: /icon-T/Shader.png
+      #   color: "#f7cb4f"
+      # Unity:
+      #   img: /icon-T/Unity.png
+      #   color: "#f7cb4f"
+      # Unreal:
+      #   img: /icon-T/AE.png
+      #   color: "#f7cb4f"
+      # Vscode:
+      #   img: /icon-T/Vscode.png
+      #   color: "#f7cb4f"
+      # 3ds Max:
+      #   img: /icon-T/3ds_Max.png
+      #   color: "#f7cb4f"
+      # Blender:
+      #   img: /icon-T/Blender.png
+      #   color: "#f7cb4f"
+      # Ae:
+      #   img: /icon-T/AE.png
+      #   color: "#f7cb4f"
+      # Cocos:
+      #   img: /icon-T/Cocos.png
+      #   color: "#f7cb4f"
+      # github:
+      #   img: /icon-T/github.png
+      #   color: "#f7cb4f"
+      # C#:
+      #   img: /icon-T/C#.png
+      #   color: "#f7cb4f"
+      # Godot:
+      #   img: /icon-T/Godot.png
+      #   color: "#f7cb4f"
+      # Houdini:
+      #   img: /icon-T/Houdini.png
+      #   color: "#f7cb4f"
+      # C++:
+      #   img: /icon-T/C++.png
+      #   color: "#f7cb4f"
+      # SD:
+      #   img: /icon-T/SD.png
+      #   color: "#ffffff"
+      # Pt:
+      #   img: /icon-T/Pt.png
+      #   color: "#2e3a41"
   group:
      T/A: /tage/TA/ || fas fa-fire || linear-gradient(to right,#f65,#ffbf37)
-     技术: /tage/Technology/ || iconfont icon-zhishi || linear-gradient(to right,#3d9dff,#2b63d5)
+     技术: /tage/Technology/ || icon-Tfont icon-T-zhishi || linear-gradient(to right,#3d9dff,#2b63d5)
   recommendList:
     enable: true
     sup: 卯相的小破站
@@ -166,9 +208,9 @@ aside:
     # social
     # 社交信息图标
     information:
-      GGAC: https://www.ggac.com/user/435914 || iconfont icon-ggac-logo # Name: link || icon
-      CSDN: https://blog.csdn.net/qq_63656904?type=blog || iconfont icon-csdn
-      微博: https://weibo.com/u/6336058768 || iconfont icon-weibo
+      GGAC: https://www.ggac.com/user/435914 || icon-Tfont icon-T-ggac-logo # Name: link || icon-T
+      CSDN: https://blog.csdn.net/qq_63656904?type=blog || icon-Tfont icon-T-csdn
+      微博: https://weibo.com/u/6336058768 || icon-Tfont icon-T-weibo
       
       
   # --------------------------- end ---------------------------
@@ -177,7 +219,7 @@ aside:
   # Sidebar QR code component
   # 侧边栏二维码组件
   flip:
-    favicon: # url (favicon)
+    favicon-T: # url (favicon-T)
     face: # url (QR code)
     backface: # url (QR code)
     backcolor: "var(--efu-blue)" # Background color
@@ -287,8 +329,8 @@ post:
       enable: true
       author:
         url: /about/ # Author link
-        # Default use site.icon
-        # 默认使用 site.icon
+        # Default use site.icon-T
+        # 默认使用 site.icon-T
         img:
       # License
       # 许可证
@@ -343,7 +385,7 @@ post:
         url: /about/
         color: var(--efu-blue)
 
-  # Share icon
+  # Share icon-T
   # 分享图标
   share:
     enable: true
@@ -484,17 +526,17 @@ right_menu:
       click: toRandomPost()
       id: menu-randomPost
       class:
-      icon: fas fa-tower-broadcast
+      icon-T: fas fa-tower-broadcast
     - name: 全部分类
       click: pjax.loadUrl('/categories/') # External links with window.open, pjax can not request cross-domain content.
       id:
       class:
-      icon: fas fa-clone
+      icon-T: fas fa-clone
     - name: 全部标签
       click: pjax.loadUrl('/tags/')
       id:
       class:
-      icon: fas fa-tags
+      icon-T: fas fa-tags
 # --------------------------- end -----------------------
 
 # --------------------------- start ---------------------------
@@ -578,10 +620,10 @@ footer:
   information:
     author: /tex/作者头像.png # img url / false
     left:
-       Github: https://github.com/KetchupKeeper || iconfont icon-github #fab fa-github # 名称: 链接 || 图标
-       Mail: mailto:o@everfu.org || iconfont icon-youxiang
+       Github: https://github.com/KetchupKeeper || icon-Tfont icon-T-github #fab fa-github # 名称: 链接 || 图标
+       Mail: mailto:o@everfu.org || icon-Tfont icon-T-youxiang
     right:
-       Bilibili: https://space.bilibili.com/32775082?spm_id_from=333.999.0.0 || iconfont icon-bilibilidonghua #fab fa-bilibili
+       Bilibili: https://space.bilibili.com/32775082?spm_id_from=333.999.0.0 || icon-Tfont icon-T-bilibilidonghua #fab fa-bilibili
        Douyin: https://www.douyin.com/user/MS4wLjABAAAAOjfj-vlbtdyAIb83TlNqRZztKM9Yoflv9LfMMB9T_OM?from_tab_name= || fab fa-tiktok
   group:
     # 导航:
@@ -601,7 +643,7 @@ footer:
   # 备案
   beian:
     - name: 湘公网安备43048102000175号
-      icon: https://beian.mps.gov.cn/img/logo01.dd7ff50e.png
+      icon-T: https://beian.mps.gov.cn/img/logo01.dd7ff50e.png
       url: https://beian.mps.gov.cn/#/query/webSearch
     - name: 湘ICP备2024080357号-1
       url: https://beian.miit.gov.cn/
@@ -689,9 +731,9 @@ loading:
   # Full screen loading
   # 全屏加载
   fullpage: true
-  # Loading icon, default is siteicon
-  # 加载图标，不写默认siteicon
-  favicon: /tex/作者头像.png
+  # Loading icon-T, default is siteicon-T
+  # 加载图标，不写默认siteicon-T
+  favicon-T: /tex/作者头像.png
   # Pace loading
   # Pace 加载
   pace: true
@@ -817,11 +859,11 @@ pwa:
   enable: true
   manifest: /manifest.json # manifest.json
   theme_color: "#006a73" # Theme color
-  mask_icon: /img/pwa/favicon.png # Mask icon
-  apple_touch_icon: /img/pwa/favicon.png # Apple touch icon
-  bookmark_icon: /tex/作者头像.png # Bookmark icon
-  favicon_32_32: /img/pwa/favicon_32.png # 32x32 icon
-  favicon_16_16: /img/pwa/favicon_16.png # 16x16 icon
+  mask_icon-T: /img/pwa/favicon-T.png # Mask icon-T
+  apple_touch_icon-T: /img/pwa/favicon-T.png # Apple touch icon-T
+  bookmark_icon-T: /tex/作者头像.png # Bookmark icon-T
+  favicon-T_32_32: /img/pwa/favicon-T_32.png # 32x32 icon-T
+  favicon-T_16_16: /img/pwa/favicon-T_16.png # 16x16 icon-T
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
