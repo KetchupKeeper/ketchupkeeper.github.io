@@ -2,8 +2,9 @@
 title: Blender预设/模版
 tags:
   - Blender
-  - 预设
+  - 工具
   - 美术向
+  - 预设模版
 abbrlink: 85af305e
 date: 2024-11-23 15:09:04
 top_img: /tex/Blender.png

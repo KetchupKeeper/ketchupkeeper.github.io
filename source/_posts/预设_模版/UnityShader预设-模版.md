@@ -4,6 +4,7 @@ tags:
   - Unity
   - Shader
   - HLSL
+  - 预设模版
 top_img: /tex/HLSL+Unity.png
 cover: /tex/HLSL+Unity.png
 abbrlink: 2fc5f1f5

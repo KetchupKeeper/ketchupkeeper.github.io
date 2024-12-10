@@ -1,8 +1,19 @@
-SourceTree版本管理
+---
+title: SourceTree版本管理
+avatar: /tex/作者头像.png
+date: 2024-12-11 01:32:26
+tags:
+ - 工具
+ - Git
+cover:
+desc:
+recommend:
+published:
+---
 
 ---
 
-Bz站学习视频地址:(https://www.bilibili.com/video/BV1Ev411j7e5?t=215.7&p=2)
+B站学习视频地址:(https://www.bilibili.com/video/BV1Ev411j7e5?t=215.7&p=2)
 
 
 
