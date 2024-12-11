@@ -193,11 +193,11 @@ aside:
   # Information card
   # 信息卡
   card:
-    style: 0 # 0: default 1: style 1 2: style 2
+    style: 1 # 0: default 1: style 1 2: style 2
     author:
       img: /tex/fanzao.jpg # url
       sticker: /tex/作者头像.png # url, 24x24 size
-    url: https://everfu.cn # link / 点击头像跳转链接
+    url: /about/ # link / 点击头像跳转链接
     background: #https://s3.qjqq.cn/47/663af296b85f4.webp!color # Background image(Invalid if style is 0)
     # Content(Invalid if style is 0)
     # 内容(Style 0 无效)
@@ -224,6 +224,7 @@ aside:
       GGAC: https://www.ggac.com/user/435914 || iconfont icon-ggac-logo # Name: link || icon
       CSDN: https://blog.csdn.net/qq_63656904?type=blog || iconfont icon-csdn
       微博: https://weibo.com/u/6336058768 || iconfont icon-weibo
+      想天工作室: https://xiangtian.online/ || iconfont icon-lianxiang
       
       
   # --------------------------- end ---------------------------
@@ -655,10 +656,10 @@ footer:
 
   # 备案
   beian:
-    - name: 湘公网安备43048102000175号
+    - name: 赣公网安备36100202000527号
       icon: https://beian.mps.gov.cn/img/logo01.dd7ff50e.png
       url: https://beian.mps.gov.cn/#/query/webSearch
-    - name: 湘ICP备2024080357号-1
+    - name: 赣ICP备2024049541号-1
       url: https://beian.miit.gov.cn/
 
   # 页脚信息文字
@@ -732,7 +733,7 @@ lazyload:
   # post, site
   field: site
   # 加载时替换图
-  placeholder: /tex/默认.jpg
+  placeholder: /gif/加载动画.gif
   # 加载失败替换图
   errorimg: /img/error_load.avif
 # --------------------------- end ---------------------------
@@ -746,7 +747,7 @@ loading:
   fullpage: true
   # Loading icon, default is siteicon
   # 加载图标，不写默认siteicon
-  favicon: /tex/作者头像.png
+  favicon: /gif/加载头像.gif
   # Pace loading
   # Pace 加载
   pace: true
@@ -856,12 +857,12 @@ extends:
   # Insert in head
   # 插入到 head
   head:
-    - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_4775664_rhejm6kebi.css" />
-    #- <script src="https://cdn.bootcdn.net/ajax/libs/pace/1.2.4/pace.min.js"></script>
-
+    - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_4775664_lvmmmp1ksk.css" />
+  #  - <script src="https://cdn.bootcdn.net/ajax/libs/pace/1.2.4/pace.min.js"></script>
   # Insert in body
   # 插入到 body
   body:
+    # - <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     #- <script src="https://cdn.bootcdn.net/ajax/libs/pace/1.2.4/pace.min.js"></script>
 # --------------------------- end ---------------------------
 
