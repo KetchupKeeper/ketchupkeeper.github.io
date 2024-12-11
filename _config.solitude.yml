@@ -91,7 +91,7 @@ hometop:
         color: "#e9572b" # color
       Unity:
         img: /icon-T/Unity.png
-        color: "#000000"
+        colheor: "#000000"
       Flutter:
         img: https://i.postimg.cc/hPC7T3gB/flutter.png
         color: "#ffffff"
@@ -318,7 +318,7 @@ page:
     # Default image when no cover is set
     # 未设置封面时的默认图片
     cover:
-       - /img/default.png # 默认图片 / default cover
+       - /gif/像素风.gif # 默认图片 / default cover
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -332,7 +332,7 @@ post:
     # Default image when no cover is set
     # 未设置封面时的默认图片
     cover:
-       - /img/default.png # 默认图片 / default cover
+       - /gif/像素风.gif # 默认图片 / default cover
     # Location
     # 位置
     locate: 南昌
