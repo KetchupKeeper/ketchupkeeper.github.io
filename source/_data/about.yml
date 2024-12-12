@@ -2,11 +2,11 @@ authorinfo:
   leftTags:
     - 🤖️ 游戏开发爱好者 
     - 🔍 图形美术爱好者
-    - 🏠 智能家居爱好者
+    - 🏠 硬件拆装爱好者
   rightTags:
     - 脚踏实地行动派 🏃
     - 团队合作者 🧱
-    - 坚强而沉默 💢
+    - 路见不平就捣腾 💢
   image: /tex/fanzao.jpg
 
 title: 关于本站
@@ -14,61 +14,118 @@ title: 关于本站
 contentinfo: # Top personal information display
   sup: 你好，很高兴认识你👋
   name: 我是卯相 # Name
-  title: 学生, 软件工程师, 独立开发者, 博主 # Introduction
-  tip: 追求卓越
+  title: 25届应届毕业生, 建模爱好者, 独立游戏开发者,综合型技术美术,博主 # Introduction
+  tip: 规范标准
   slogan: 创造源于激情
   mask:
-    - 卓越产品
-    - 卓越设计
+    - 3D建模
+    - 特效制作
     - 高效编程
-    - 用户友好体验
+    - 游戏开发设计
 
 skills: # Add as needed
-  title: 技能
+  title: 我的技能
   subtitle: 解锁创造力
   tags:
     - title: HTML
-      icon: https://npm.elemecdn.com/wleelw-blog-abs@1.0.0/img/icon/HTML.png
+      img: /icon-T/Blender.png
       color: "#e9572b"
-    - title: Javascript
-      icon: https://npm.elemecdn.com/wleelw-blog-abs@1.0.0/img/icon/JS.png
-      color: "#f7cb4f"
-    - title: Kotlin
-      icon: https://npm.elemecdn.com/wleelw-blog-abs@1.0.0/img/icon/kotlin-logo.svg
-      color: "#ffffff"
-    - title: WebPack
-      icon: https://npm.elemecdn.com/wleelw-blog-abs@1.0.0/img/icon/webpack.png
+    - title: Blender
+      img: /icon-T/Blender.png
+      color: "#1a5b6d"
+    - title: Unity
+      img: /icon-T/Unity.png
+      color: "#000000"
+    - title: Git
+      img: https://i.postimg.cc/nhgjwjCS/git.png
       color: "#2e3a41"
     - title: Git
-      icon: https://npm.elemecdn.com/wleelw-blog-abs@1.0.0/img/icon/git.png
+      img: https://npm.elemecdn.com/wleelw-blog-abs@1.0.0/img/icon/git.png
       color: "#df5b40"
     - title: Docker
-      icon: https://npm.elemecdn.com/wleelw-blog-abs@1.0.0/img/icon/webpack.png
+      img: https://npm.elemecdn.com/wleelw-blog-abs@1.0.0/img/icon/webpack.png
       color: "#57b6e6"
     - title: Visual Studio
-      icon: https://npm.elemecdn.com/wleelw-blog-abs@1.0.0/img/icon/vs-logo.svg
+      img: https://npm.elemecdn.com/wleelw-blog-abs@1.0.0/img/icon/vs-logo.svg
       color: "#ffffff"
-
+    - title: Maya
+      img: /icon-T/Maya.png
+      color: "#3398bc"
+    - title: Ps
+      img: /icon-T/Ps.png
+      color: "#090a16"
+    - title: Shader
+      img: /icon-T/Shader.png
+      color: "#ffffff"
+    - title: Unreal
+      img: /icon-T/Unreal.png
+      color: "#ffffff"
+    - title: Vscode
+      img: /icon-T/Vscode.png
+      color: "#ededed"
+    - title: 3ds Max
+      img: /icon-T/3ds_Max.png
+      color: "#3398bc"
+    - title: Ae
+      img: /icon-T/AE.png
+      color: "#00005b"
+    - title: Cocos
+      img: /icon-T/Cocos.png
+      color: "#04c5e1"
+    - title: github
+      img: /icon-T/github.png
+      color: "#000000"
+    - title: C#
+      img: /icon-T/Csp.png
+      color: "#32135e"
+    - title: Godot
+      img: /icon-T/Godot.png
+      color: "#101c26"
+    - title: Houdini
+      img: /icon-T/Godot.png
+      color: "#f26722"
+    - title: C++
+      img: /icon-T/C++.png
+      color: "#004678"
+    - title: SD
+      img: /icon-T/SD.png
+      color: "#1e3101"
+    - title: Pt
+      img: /icon-T/Pt.png
+      color: "#1e3101"
 careers:
-  title: 经历
+  title: 个人经历
   subtitle: 无限进步
   items:
-    - school: 软件工程
-      major: 学习
-      color: "#357ef5"
+    - school: 天津武警
+      major: 参军
+      color: "#164607"
+    - school: 南昌工学院
+      major: 虚拟现实技术
+      color: "#164607"
+    - school: 江西财经大学
+      major: 软件工程(VR开发)
+      color: "#164607"
+    - school: 亚里工作室
+      major: 3D建模实习
+      color: "#164607"
+    - school: 深圳宜达数字股份有限公司
+      major: TA技术美术
+      color: "#164607"
+    - school: 想天工作室
+      major: TA技术美术
+      color: "#164607"
   image: https://7.isyangs.cn/1/65eb2d10ba24d-1.png
-
-
 personalities:
   tips: 性格
-  title: 执行者
-  color: "#56a178"
+  title: 指挥官
+  color: "#88619a"
   type: ESFJ-A
   image: https://ui.everfu.cn/cover/202408271816314.svg
   link: https://www.16personalities.com/
   linkText: 16personalities
-  typeLink: https://www.16personalities.com/ch/esfj-人格
-  typeName: 执行者
+  typeLink: https://www.16personalities.com/ch/entj-%E4%BA%BA%E6%A0%BC
+  typeName: 指挥官
   myphoto: https://7.isyangs.cn/1/65eb2d340cad3-1.png
 
 motto:
