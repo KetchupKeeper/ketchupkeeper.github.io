@@ -99,7 +99,21 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: solitude
 
+
+# Deployment
+## Docs: https://hexo.io/docs/one-command-deployment
+deploy:
+  type: ''
+
 # Plug-in
+# --------------------------- start ---------------------------、
+plugins:
+  - markdown-it-abbr
+  - markdown-it-deflist
+  - hexo-browsersync
+
+
+# ---------------------------- end ----------------------------
 # --------------------------- start ---------------------------
 # 1、hexo-generator-searchdb  本地搜索插件
 # Search
@@ -113,9 +127,57 @@ search:
 auto_dir_categorize:
 	enable: true  # options:true, false; default is true
 	force: false # options:true, false; default is false
-# --------------------------- end ---------------------------
 
-# Deployment
-## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: ''
+
+# hexo-renderer-markdown-it  markdown渲染工具
+markdown:
+  preset: "default"
+  render:
+    html: true
+    xhtmlOut: false
+    langPrefix: "language-"
+    breaks: true
+    linkify: true
+    typographer: true
+    quotes: "“”‘’"
+  enable_rules:
+  disable_rules:
+  plugins:
+    - markdown-it-abbr
+    - markdown-it-cjk-breaks
+    - markdown-it-deflist
+    - markdown-it-emoji
+    - markdown-it-footnote
+    - markdown-it-ins
+    - markdown-it-mark
+    - markdown-it-sub
+    - markdown-it-sup
+    - markdown-it-checkbox
+    - markdown-it-imsize
+    - markdown-it-expandable
+    - name: markdown-it-container
+      options: success
+    - name: markdown-it-container
+      options: tips
+    - name: markdown-it-container
+      options: warning
+    - name: markdown-it-container
+      options: danger
+  anchors:
+    level: 2
+    collisionSuffix: ""
+    permalink: false
+    permalinkClass: "header-anchor"
+    permalinkSide: "left"
+    permalinkSymbol: "¶"
+    case: 0
+    separator: "-"
+
+
+#Hexo Browsersync  #hexo的浏览器同步插件
+hexo-browsersync:
+  ghostMode: true     # 同步滚动条位置等行为
+  notify: true        # 开启通知提醒
+  open: true          # 自动打开浏览器
+    
+# --------------------------- end ---------------------------

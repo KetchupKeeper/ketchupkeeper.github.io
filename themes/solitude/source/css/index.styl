@@ -32,3 +32,45 @@ if hexo-config('comment.use')
 // third party
 if hexo-config('tianli_talk.enable')
   @import 'third_party/tianli_talk.styl'
+
+// Markdown Rander (plug-in)
+.tips {
+    padding-left: 10px;
+    background-color rgba(52,152,219,.7);
+    border-left 4px solid rgb(52,152,219);
+    color: #ffffff; /* 设置字体颜色为白色 */
+    border-radius: 8px; /* 添加圆角 */
+}
+.success {
+    padding-left: 10px;
+    background-color rgba(46,204,113,.7);
+    border-left 4px solid rgb(46,204,113);
+    color: #ffffff; /* 设置字体颜色为白色 */
+    border-radius: 8px; /* 添加圆角 */
+}
+.warning {
+    padding-left: 10px;
+    background-color rgba(223, 167, 14,.7);
+    border-left 4px solid rgb(223, 168, 14);
+    color: #ffffff; /* 设置字体颜色为白色 */
+    border-radius: 8px; /* 添加圆角 */
+}
+.danger {
+    padding-left: 10px;
+    background-color rgba(231,76,60,.7);
+    border-left 4px solid rgb(231,76,60);
+    color: #ffffff; /* 设置字体颜色为白色 */
+    border-radius: 8px; /* 添加圆角 */
+}
+
+//字体导入
+@font-face {
+  font-family 'FusionPixel';
+  src url('/css/fonts/fusion-pixel-12px-proportional-zh_hans.otf') format('opentype');
+  font-weight normal;
+  font-style normal;
+}
+//更改全局字体
+body {
+  font-family 'FusionPixel', sans-serif;
+}
