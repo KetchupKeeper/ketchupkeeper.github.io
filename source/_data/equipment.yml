@@ -1,20 +1,86 @@
 - class_name: 生产力
   description: 提升自己生产效率的硬件设备
   equipment_list:
-      - name: 群晖 DS920+
-        specification: 性价比超高
+      - name: 群晖 DS1522+
+        specification: 8GB DDR4  万兆网口  5盘位 M2槽x2  2.7公斤
         description: 很棒的网络存储解决方案以及流媒体传输服务器
-        image: https://7.isyangs.cn/1/65eb3d5f8057b-1.png
-      - name: iPhone 12 Pro Max
-        specification: 海蓝色 / 1TB
-        description: 功能强大，外观抢眼，设计耐用。
-        image: https://7.isyangs.cn/1/65eb3d70c59d9-1.png
+        image: https://www.synology.com/img/products/detail/DS1522plus/heading@2x.png
+
+      - name: AMD 锐龙 R9-7900X（CPU）
+        specification: 12核心  24线程  
+        description: 不配置Bios温度偏高，小白驾驭的话需要点学习成本，处理性能优秀，和N卡协同渲染效率低，建议有N卡的用户取消CPU渲染勾选。
+        image: https://www.notebookcheck.net/uploads/tx_nbc2/R9_7900_9.jpg
         link: https://support.apple.com/kb/SP832?locale=zh_CN
-- class_name: 出行
-  description: 用来出行的实物及设备
+
+      - name: 七彩虹战斧 NVIDA RTX 3070Ti 显卡
+        specification: GDDR6X 8GB显存 位宽256bit  8纳米工艺
+        description: 足够学习中的所有需求，包括但不限于（UE4/5、DCC软件、单帧渲染、渲染器使用等）。
+        image: https://www.colorful.cn/editor/attached/image/20210823/20210823165940_2148.jpg
+        link: https://support.apple.com/kb/SP832?locale=zh_CN
+
+      - name: 宏基掠夺者_PREDATOR 凌霜 内存条
+        specification: 16Gx2 6600hz DDR5
+        description: 这个内存量够打开很多大型场景和Houdini软件运用，可以很好的避免项目崩溃的问题。
+        image: https://zhongces3.sina.com.cn/product/20230319/086444229a401f9dca6dc873afc6f7b0.jpeg
+        link: https://support.apple.com/kb/SP832?locale=zh_CN
+      
+      - name: 微星 B650 迫击炮  主板
+        specification: wifi MORTAR MAG 兼容7900X 
+        description: 兼容其他硬件。
+        image: https://doc-fd.zol-img.com.cn/t_s640x2000/g7/M00/0F/09/ChMkK2N97IiIUcr0AAFfsZ5w2PsAAJ9sgNhJs0AAV_J302.jpg
+        link: https://support.apple.com/kb/SP832?locale=zh_CN
+
+      - name: 微星 MPG GUNGNIR 100
+        specification: 兼容7900X 
+        description: 兼容其他硬件。兼容E-ATX/ATX主板
+        image: http://img.maoxiang.site/Blog/20241212173412579.png
+        link: https://support.apple.com/kb/SP832?locale=zh_CN
+      
+      - name: Thermalright(利民) 电源
+        specification: 额定850W TR-TG850 ATX3.0电源 金牌全模组 
+        description: 功耗支持配置电力输出。
+        image: http://img.maoxiang.site/Blog/20241212174100696.jpg
+        link: https://support.apple.com/kb/SP832?locale=zh_CN
+
+- class_name: 外设
+  description: 舒适>颜值>性价比
   equipment_list:
-     - name: AirPods Pro
-       specification: 标准版
-       description: 可以说是非常强的耳机了，还有好几次固件大幅度更新。apple生态只要有两个设备及以上，必入。
-       image: https://7.isyangs.cn/1/65eb3d84dea25-1.png
+     - name: 黑吉蛇DK75机械键盘RGB套件
+       specification: 热插拔 套件 无轴无帽 DIY
+       description: 无线 2.4G 蓝牙 有线 三模 白色（RGB）
+       image: http://img.maoxiang.site/Blog/20241212184517929.jpg
        link: https://www.apple.com.cn/airpods-pro/
+      
+     - name: 黑吉蛇DK75机械键盘RGB套件
+       specification: 热插拔 套件 无轴无帽 DIY
+       description: 无线 2.4G 蓝牙 有线 三模 白色（RGB）
+       image: http://img.maoxiang.site/Blog/20241212184517929.jpg
+       link: https://www.apple.com.cn/airpods-pro/
+
+- class_name: 米粉装备
+  description: 舒适>颜值>性价比
+  equipment_list:
+     - name: Xiaomi S2  黑色
+       specification: 标准版
+       description: 颜值很高，很有气质，最喜欢的生日礼物之一。
+       image: https://img.cnmo.com/2038_600x375/2037228.jpg
+       link: https://www.apple.com.cn/airpods-pro/
+
+     - name: Xiaomi 14 
+       specification: 旗舰版 512+16G 黑色
+       description: 个人手感最好的一代，没有之一。
+       image: https://cdn.cnbj1.fds.api.mi-img.com/product-images/xiaomi14ghnegm/index/images/qianlan-l2.png
+       link: https://www.apple.com.cn/airpods-pro/
+    
+     - name: 红米K60
+       specification: 标准版 黑曜石 
+       description: 性价比超级高，推荐主力和备用机。
+       image: https://cdn.cnbj1.fds.api.mi-img.com/product-images/redmik600sq8ah/index/6003.png?x-fds-process=image/resize,q_90,f_webp
+       link: https://www.apple.com.cn/airpods-pro/
+
+     - name: 红米note10
+       specification: 二手 5G 8+256 竹石青
+       description: 作为备用机性价比高。
+       image: https://ts1.cn.mm.bing.net/th/id/R-C.03e753ff1f7308b817000386ffe7744d?rik=LXZOPrnrvO4AzQ&riu=http%3a%2f%2fimg.dixintong.com%2fInUpImg%2fProImg%2f2021-05-31%2f210531153605203631.jpg&ehk=t6%2bmurb5JjUzUPlsLrDf2q%2bK0r7ZojTV124OlLS0oio%3d&risl=&pid=ImgRaw&r=0
+       link: https://www.apple.com.cn/airpods-pro/
+    
