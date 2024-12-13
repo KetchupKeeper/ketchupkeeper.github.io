@@ -53,14 +53,14 @@ nav:
       技术向: /tags/技术向 || iconfont icon-biancheng-01
       美术向: /tags/美术向 || iconfont icon-meishu
       工具库: /tags/工具 || iconfont icon-celianggongju1
-    友链:
-      朋友圈: /moments/ || fas fa-wifi
+    链接:
+      在线工具: /tlink/ || fas fa-toolbox
+      #朋友圈: /moments/ || fas fa-wifi
       友情链接: /links/ || fas fa-user-group
       宝藏博主: /uploader/ || fas fa-gift
     关于:
       关于本站: /about/ || iconfont icon-guanyuwomen
       我的装备: /equipment/ || fas fa-laptop
-      在线工具: /tlink/ || fas fa-toolbox
       音乐馆: /music/ || fas fa-music
 
   # Right button
