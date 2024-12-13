@@ -4,6 +4,9 @@ block content
     main.layout#content-inner(class=page.aside ? '' : 'hide-aside')
         #page
             case page.type
+                //新建页面
+                when 'uploader'
+                    include includes/page/uploader
                 when 'categories'
                     include includes/page/categories
                 when 'tags'

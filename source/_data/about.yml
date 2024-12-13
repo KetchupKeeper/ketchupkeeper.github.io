@@ -27,9 +27,6 @@ skills: # Add as needed
   title: 我的技能
   subtitle: 解锁创造力
   tags:
-    - title: HTML
-      img: /icon-T/Blender.png
-      color: "#e9572b"
     - title: Blender
       img: /icon-T/Blender.png
       color: "#1a5b6d"
@@ -37,13 +34,10 @@ skills: # Add as needed
       img: /icon-T/Unity.png
       color: "#000000"
     - title: Git
-      img: https://i.postimg.cc/nhgjwjCS/git.png
-      color: "#2e3a41"
-    - title: Git
       img: https://npm.elemecdn.com/wleelw-blog-abs@1.0.0/img/icon/git.png
       color: "#df5b40"
     - title: Docker
-      img: https://npm.elemecdn.com/wleelw-blog-abs@1.0.0/img/icon/webpack.png
+      img: https://i.postimg.cc/8Pk6Fg24/docker.png
       color: "#57b6e6"
     - title: Visual Studio
       img: https://npm.elemecdn.com/wleelw-blog-abs@1.0.0/img/icon/vs-logo.svg
@@ -59,7 +53,7 @@ skills: # Add as needed
       color: "#ffffff"
     - title: Unreal
       img: /icon-T/Unreal.png
-      color: "#ffffff"
+      color: "#000000"
     - title: Vscode
       img: /icon-T/Vscode.png
       color: "#ededed"
@@ -80,9 +74,9 @@ skills: # Add as needed
       color: "#32135e"
     - title: Godot
       img: /icon-T/Godot.png
-      color: "#101c26"
+      color: "#006c83"
     - title: Houdini
-      img: /icon-T/Godot.png
+      img: /icon-T/Houdini.png
       color: "#f26722"
     - title: C++
       img: /icon-T/C++.png
@@ -121,53 +115,53 @@ personalities:
   title: 指挥官
   color: "#88619a"
   type: ESFJ-A
-  image: https://ui.everfu.cn/cover/202408271816314.svg
+  image: /tex/ENTJ.png
   link: https://www.16personalities.com/
   linkText: 16personalities
   typeLink: https://www.16personalities.com/ch/entj-%E4%BA%BA%E6%A0%BC
   typeName: 指挥官
-  myphoto: https://7.isyangs.cn/1/65eb2d340cad3-1.png
+  myphoto: /tex/ENTJ-2.png
 
 motto:
   title: 座右铭
-  prefix: 破釜沉舟，
-  content: 勇往直前。
+  prefix: 心事浩茫连广宇，
+  content: 于无声处听惊雷。
 
 expertise:
   title: 专长
-  prefix: 数学, 物理, 化学
-  specialist: 专家
+  prefix: 渲染，TA，特效
+  specialist: 小能手
   content: 学习能力
   level: MAX
 
 game:
   - title: 游戏爱好
-    img: https://7.isyangs.cn/66/6738b3614140c-66.webp
+    img: https://gd-hbimg.huaban.com/a2993d931f02f340dc8a3d8371626cb75b218cca143ee1-kY9sjr_fw1200webp
     subtitle: 英雄联盟
     box_shadow: '0 -69px 203px 11px #04120f inset'
     icon_group:
       - https://7.isyangs.cn/66/6738b472ce11f-66.webp
       - https://7.isyangs.cn/66/6738b48045a5b-66.webp
-    tips_right: 比尔吉沃特
+    tips_right: 【艾欧尼亚】-
   - title: 游戏爱好
-    img: https://7.isyangs.cn/66/6738b3618ee12-66.webp
-    subtitle: 狼人杀
-    box_shadow: '0 -69px 203px 11px #415dc9 inset'
-    tips_left: ID 1333E3FF
+    img: https://www.10wallpaper.com/wallpaper/1366x768/1806/2019_Dying_Light_2_Game_4K_Poster_1366x768.jpg
+    subtitle: 消逝的光芒
+    box_shadow: '0 -69px 203px 11px #767676 inset'
+    tips_left: ID -卯相—
 
 likes:
   - type: like-technology
-    bg: https://7.isyangs.cn/66/6738b3606d9d3-66.webp
+    bg: /tex/好物背景.png
     tips: 兴趣偏好
     title: 数码科技
-    subtips: 手机、电脑软硬件
+    subtips: 手机、电脑软硬件、VR设备——
   - type: like-music
-    bg: https://7.isyangs.cn/66/6738b36015cb7-66.webp
+    bg: https://image.baidu.com/search/down?url=https://tvax1.sinaimg.cn/large/ea98bce0gy1gyjyklqsymj21z418gqpw.jpg
     tips: 音乐偏好
-    title: Hiphop、民谣、华语流行
-    subtips: 跟 伍十七 一起欣赏更多音乐
-    button: false
-    button_text: 更多推荐
+    title: Hiphop、轻音乐、金克斯进行曲
+    subtips: 欢迎来到 卯相 的音乐库
+    button: true
+    button_text: 我的音乐
     button_link: /music/
 
 tj:
@@ -176,41 +170,44 @@ tj:
   img: https://7.isyangs.cn/1/65eb2e9109826-1.png # Background
 
 oneself: # Fill in as needed
-  location: 中国, 湖南 # Location
-  birthYear: 2004 # Birthday
-  university: 江西软件职业技术大学 # Graduated from
+  location: 中国, 江西 # Location
+  birthYear: 1999 # Birthday
+  university: 江西财经大学 # Graduated from
   major: 软件工程 # Major
   occupation: 学生 # Occupation
   map: # Map of your location
-    light: https://7.isyangs.cn/1/65eb2ec63a9aa-1.png # Daytime
-    dark: https://7.isyangs.cn/1/65eb2eedc780e-1.png # Nighttime
+    light: http://img.maoxiang.site/Blog/20241213173237510.png # Daytime
+    dark: http://img.maoxiang.site/Blog/20241213173237510.png # Nighttime
 
 cause:
-  tip: 初衷
-  title: 为什么建立这个网站？
+  tip: 关于我的博客
+  title: 为什么想到开始写博客了？
   content:
-    <br>创建这个网站的初衷是有一个地方可以 <b>积累知识和兴趣</b>。与他人分享可以让这些成为积累和沉淀。如果我能帮助更多的人并解决他们的问题，那就太好了。
     <br>
-    与大多数垂直技术博客不同，这里的类别将非常多样，包括 <b>教程和实用知识</b>、<b>生活轶事和建议</b>、<b>各种主题的思考和想法</b>。无论我研究或发现什么，我都会在这里分享。
+    1、喜欢<b>DIY</b>和不疲于捣腾，想要一个自己的<b>线上空间</b>。
     <br>
-    这是创建这个小网站的初衷，也是 <b>我分享生活的方式</b>。我很幸运在这里遇见你，我相信我们可以一起留下一些美好的回忆。
+    2、记笔记和翻看笔记，我个人觉得目前的笔记Web和App都<b>比较臃肿和不美观</b>，在语雀；Onenote；Noteblilty；Xmind；CSDN记录分享，还是不合心意，最后看到了个人博客。
+    <br>
+    3、个人博客<b>便捷管理</b>文章内容，<b>完全自定义</b>到自己喜欢的感觉，感觉好看的博客能让我<b>学习效率翻倍</b>。
+    <br>
+    4、当做自己的赛博名片用了。
     <br>
 
 tenyear:
-  tips: 十年之约
-  title: 孤独一人，众乐乐。
-  start: 2024-04-20
-  end: 2034-04-20
+  tips: 技术美术成长中
+  title: 美术、特效、Shader嘎嘎学！
+  start: 2022-04-20
+  end: 2032-04-20
 
 award:
-  enable: true
+  enable: false
   description: 感谢大家的支持和鼓励。因为你们，我感到写作博客可以为你们创造价值。这将使我在这条路上走得更远。
   tips: '总金额: ¥ {sum}, 将用于博客的维护和更新。'
 rewardList: # Bottom donations
   - name: 悦华
     money: 5
     time: 2023-04-20
-    icon: fab fa-weixin
+    img: fab fa-weixin
   - name: 糕小菜
     money: 6.66
     time: 2023-08-11

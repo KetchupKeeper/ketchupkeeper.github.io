@@ -129,7 +129,7 @@ auto_dir_categorize:
 	force: false # options:true, false; default is false
 
 
-# hexo-renderer-markdown-it  markdown渲染工具
+# hexo-renderer-markdown-it  markdown更好的渲染工具
 markdown:
   preset: "default"
   render:
@@ -156,13 +156,13 @@ markdown:
     - markdown-it-imsize
     - markdown-it-expandable
     - name: markdown-it-container
-      options: success
+      options: s
     - name: markdown-it-container
-      options: tips
+      options: t
     - name: markdown-it-container
-      options: warning
+      options: w
     - name: markdown-it-container
-      options: danger
+      options: d
   anchors:
     level: 2
     collisionSuffix: ""

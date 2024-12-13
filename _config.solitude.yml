@@ -52,10 +52,11 @@ nav:
       技术美术: /tags/TA || iconfont icon-youshi1
       技术向: /tags/技术向 || iconfont icon-biancheng-01
       美术向: /tags/美术向 || iconfont icon-meishu
+      工具库: /tags/工具 || iconfont icon-celianggongju1
     友链:
       朋友圈: /moments/ || fas fa-wifi
       友情链接: /links/ || fas fa-user-group
-      宝藏博主: // || fas fa-gift
+      宝藏博主: /uploader/ || fas fa-gift
     关于:
       关于本站: /about/ || iconfont icon-guanyuwomen
       我的装备: /equipment/ || fas fa-laptop
@@ -139,7 +140,7 @@ hometop:
         color: "#32135e"
       Godot:
         img: /icon-T/Godot.png
-        color: "#101c26"
+        color: "#006c83"
       Houdini:
         img: /icon-T/Houdini.png
         color: "#f26722"
@@ -635,7 +636,7 @@ footer:
     author: /tex/作者头像.png # img url / false
     left:
        Github: https://github.com/KetchupKeeper || iconfont icon-github #fab fa-github # 名称: 链接 || 图标
-       Mail: mailto:o@everfu.org || iconfont icon-youxiang
+       Mail: mailto:o@everfu.org || iconfont icon-youxiang1
     right:
        Bilibili: https://space.bilibili.com/32775082?spm_id_from=333.999.0.0 || iconfont icon-bilibilidonghua #fab fa-bilibili
        Douyin: https://www.douyin.com/user/MS4wLjABAAAAOjfj-vlbtdyAIb83TlNqRZztKM9Yoflv9LfMMB9T_OM?from_tab_name= || fab fa-tiktok
@@ -793,7 +794,7 @@ memorial:
   date:
    - 7-7
    - 9-18
-   - 12-13
+  # - 12-13
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -857,7 +858,7 @@ extends:
   # Insert in head
   # 插入到 head
   head:
-    - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_4775664_lvmmmp1ksk.css" />
+    - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_4775664_t7ai2t5h3f.css" />
   #  - <script src="https://cdn.bootcdn.net/ajax/libs/pace/1.2.4/pace.min.js"></script>
   # Insert in body
   # 插入到 body
