@@ -7,7 +7,6 @@ tags:
   - 预设模版
 abbrlink: 97650b2f
 date: 2024-11-23 15:09:34
-top_img: /tex/3ds Max.png
 cover: /tex/3ds Max.png
 ---
 

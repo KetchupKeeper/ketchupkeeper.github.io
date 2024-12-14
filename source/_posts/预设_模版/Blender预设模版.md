@@ -7,7 +7,6 @@ tags:
   - 预设模版
 abbrlink: 85af305e
 date: 2024-11-23 15:09:04
-top_img: /tex/Blender.png
 cover: /tex/Blender.png
 ---
 

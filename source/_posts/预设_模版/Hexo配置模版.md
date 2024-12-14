@@ -5,7 +5,6 @@ tags:
   - 安知鱼主题
   - 博客技术笔记
   - 预设模版
-top_img: /tex/Hexo.png
 cover: /tex/Hexo.png
 abbrlink: 2489627f
 date: 2024-11-22 17:00:57

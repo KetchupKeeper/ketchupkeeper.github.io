@@ -56,8 +56,8 @@ nav:
     链接:
       在线工具: /tlink/ || fas fa-toolbox
       #朋友圈: /moments/ || fas fa-wifi
-      友情链接: /links/ || fas fa-user-group
       宝藏博主: /uploader/ || fas fa-gift
+      友情链接: /links/ || fas fa-user-group
     关于:
       关于本站: /about/ || iconfont icon-guanyuwomen
       我的装备: /equipment/ || fas fa-laptop
@@ -859,6 +859,8 @@ extends:
   # 插入到 head
   head:
     - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_4775664_t7ai2t5h3f.css" />
+    - <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+    - <script>LA.init({id:"3Kcas37IJ3xJJWsX",ck:"3Kcas37IJ3xJJWsX"})</script>
   #  - <script src="https://cdn.bootcdn.net/ajax/libs/pace/1.2.4/pace.min.js"></script>
   # Insert in body
   # 插入到 body
@@ -958,8 +960,8 @@ search:
   # type: 使用的搜索引擎 / search engine
   type: local # local / algolia
   tags:
-    # - Solitude
-    # - Hexo
+    - Solitude
+    - Hexo
   algolia:
     # hits:
     #   per_page: 6

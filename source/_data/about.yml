@@ -165,7 +165,7 @@ likes:
     button_link: /music/
 
 tj:
-  provider: custom # Value can be 51la (51la website statistics) or custom
+  provider: 51la # Value can be 51la (51la website statistics) or custom
   url: https://api.everfu.cn/pv/ # Need to register and obtain from the 51la official website or set up your own Baidu statistics project and fill in the access address
   img: https://7.isyangs.cn/1/65eb2e9109826-1.png # Background
 
