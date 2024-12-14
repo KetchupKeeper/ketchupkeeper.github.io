@@ -1,23 +1,33 @@
 banner_suffix: 
 links:
-   - class_name: 推荐 # 分类名称
+   - class_name: 置顶推荐 # 分类名称
      descr: 参与本站开发、提供设计灵感、捐助本站的优秀博主 # 分类简介
      type: card  # 显示方式，有两种 card / item
      suffix: 
      link_list:
-        - name: 伍十七 # 友链名称
-          link: / # 友链地址
-          descr: 一个狂热的开源工作者 # 友链简介
-          avatar: https://ui.everfu.cn/avatar/20240827172640.png # 显示头像
-          topimg: https://ui.everfu.cn/siteshot/202408280110974.png/siteshot # 如果是card模式下，将显示
-          tag: 博主
+        - name: 想天工作室 # 友链名称
+          link: https://xiangtian.online # 友链地址
+          descr: 小工作室 # 友链简介
+          avatar: https://xiangtian.online/wp-content/uploads/2024/09/cropped-%E6%83%B3%E5%A4%A9%E5%B7%A5%E4%BD%9C%E5%AE%A4-192x192.png # 显示头像
+          topimg: http://img.maoxiang.site/Blog/20241214155143868.png # 如果是card模式下，将显示
+          tag: 工作室
           color: vip
-   - class_name: 技术
+   - class_name: 在线工具
      descr: 技术知识为主的博客
      type: item
      suffix: 
      link_list:
-       - name: isYangs # 友链名称
-         link: https://isyangs.cn # 友链地址
-         avatar: https://7.isyangs.cn/8/655c9835780a0-8.jpg # 显示头像
-         descr: 一个前端Bug构造师的博客 # 友链简介
+       - name: Desmos数学 # 友链名称
+         link: https://www.desmos.com/calculator?lang=zh-CN # 友链地址
+         avatar: https://files.codelife.cc/website/5b3f172f18048f440adfd5c1.png?x-oss-process=image/resize,limit_0,m_fill,w_100,h_100/quality,q_92/format,webp # 显示头像
+         descr: 一个在线数学函数展示工具  # 友链简介
+
+   - class_name: 资产网站
+     descr: 技术知识为主的博客
+     type: item
+     suffix: 
+     link_list:
+       - name: Desmos数学 # 友链名称
+         link: https://www.desmos.com/calculator?lang=zh-CN # 友链地址
+         avatar: https://files.codelife.cc/website/5b3f172f18048f440adfd5c1.png?x-oss-process=image/resize,limit_0,m_fill,w_100,h_100/quality,q_92/format,webp # 显示头像
+         descr: 一个在线数学函数展示工具  # 友链简介

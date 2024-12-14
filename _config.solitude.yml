@@ -420,13 +420,13 @@ post:
   covercolor:
     enable: true
     # local: local color / api: api color / ave: oss average color
-    mode: ave
+    mode: local
     # api address / api 地址
     api: https://api.qjqq.cn/api/Imgcolor?img=
     # Storage / 缓存时间
     time: 43200000
   footer:
-    enable: false
+    enable: true
     desc: # Articles from Ever Fu. / 文章来自 Ever Fu # description
     button: # Button
       enable: true
