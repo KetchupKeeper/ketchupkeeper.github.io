@@ -166,17 +166,35 @@ HTML+CSS+JS三小时入门笔记。
 
   ![image-20241215230602531](https://img.maoxiang.site/Blog/20241215230602565.png)
 
-- 属性
+- 常见的属性
+
+  | 属性名           | 属性效果       |
+  | ---------------- | -------------- |
+  | color            | 字体颜色       |
+  | background-color | 背景颜色       |
+  | font-size        | 设置字体大小   |
+  | font-famliy      | 设置字体样式   |
+  | font-weight      | 设置字体的粗细 |
+
+  
 
 - 复合属性
 
+  ![image-20241215235506204](https://img.maoxiang.site/20241215235513344.png)
+
 - 块、行内、行内块元素
+
+  ![image-20241215235521293](https://img.maoxiang.site/20241215235521589.png)
 
 ## 5、盒子模式
 
+*盒子模式是一个可见的容器*
 
+![image-20241215235544923](https://img.maoxiang.site/20241215235545230.png)
 
 # 三、 JS（大概了解它是干啥的）
 
-## 1、什么是JavaScript
+## 1、什么是JavaScript![image-20241215235615380](https://img.maoxiang.site/20241215235615589.png)
+
+
 
