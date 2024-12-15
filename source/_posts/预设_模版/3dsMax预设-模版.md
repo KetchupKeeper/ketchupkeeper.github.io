@@ -5,7 +5,10 @@ tags:
   - 工具
   - 美术向
   - 预设模版
-abbrlink: 97650b2f
+avatar: /T/文章头像.png
+desc: 
+recommend:
+published: true
 date: 2024-11-23 15:09:34
 cover: /tex/3ds Max.png
 ---

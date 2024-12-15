@@ -3,7 +3,11 @@ title: Hexo配置提升（插件篇）
 avatar: /tex/作者头像.png
 date: 2024-12-12 16:41:41
 tags:
-cover:
+  - Hexo使用
+  - solitude主题
+  - 博客技术笔记
+  - Technology
+cover: /tex/Hexo.png
 desc:
 recommend:
 published:

@@ -6,7 +6,10 @@ tags:
   - HLSL
   - 预设模版
 cover: /tex/HLSL+Unity.png
-abbrlink: 2fc5f1f5
+avatar: /T/文章头像.png
+desc: 作者头像下的页面描述
+recommend:
+published: true
 date: 2024-12-02 10:50:25
 ---
 

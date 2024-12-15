@@ -2,6 +2,8 @@
 title: 【吉比特高校9天“Gamejam”比赛】
 tags:
   - 竞赛
+  - 吉比特
+  - Gamejam
 top_img: https://www.helloimg.com/i/2024/12/02/674d1b81ac948.png
 cover: https://www.helloimg.com/i/2024/12/02/674d1b81ac948.png
 abbrlink: a5e7bc41

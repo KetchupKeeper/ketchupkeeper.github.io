@@ -6,7 +6,10 @@ tags:
   - 博客技术笔记
   - 预设模版
 cover: /tex/Hexo.png
-abbrlink: 2489627f
+avatar: /T/文章头像.png
+desc: 作者头像下的页面描述
+recommend:
+published: true
 date: 2024-11-22 17:00:57
 ---
 

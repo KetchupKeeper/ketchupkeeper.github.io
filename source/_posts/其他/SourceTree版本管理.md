@@ -5,7 +5,7 @@ date: 2024-12-11 01:32:26
 tags:
  - 工具
  - Git
-cover:
+cover: /tex/SourceTree.png
 desc:
 recommend:
 published:

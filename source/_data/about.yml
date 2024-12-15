@@ -96,19 +96,19 @@ careers:
       color: "#164607"
     - school: 南昌工学院
       major: 虚拟现实技术
-      color: "#164607"
+      color: "#293887"
     - school: 江西财经大学
       major: 软件工程(VR开发)
-      color: "#164607"
+      color: "#ff0000"
     - school: 亚里工作室
       major: 3D建模实习
-      color: "#164607"
+      color: "#0c4b6f"
     - school: 深圳宜达数字股份有限公司
-      major: TA技术美术
-      color: "#164607"
+      major: TA技术美术实习
+      color: "#ffffff"
     - school: 想天工作室
       major: TA技术美术
-      color: "#164607"
+      color: "#000000"
   image: https://7.isyangs.cn/1/65eb2d10ba24d-1.png
 personalities:
   tips: 性格
@@ -142,19 +142,22 @@ game:
     icon_group:
       - https://7.isyangs.cn/66/6738b472ce11f-66.webp
       - https://7.isyangs.cn/66/6738b48045a5b-66.webp
-    tips_right: 【艾欧尼亚】-
+    tips_right: 【艾欧尼亚】
   - title: 游戏爱好
     img: https://www.10wallpaper.com/wallpaper/1366x768/1806/2019_Dying_Light_2_Game_4K_Poster_1366x768.jpg
     subtitle: 消逝的光芒
     box_shadow: '0 -69px 203px 11px #767676 inset'
-    tips_left: ID -卯相—
+    tips_left: ID：卯相
 
 likes:
   - type: like-technology
     bg: /tex/好物背景.png
     tips: 兴趣偏好
     title: 数码科技
-    subtips: 手机、电脑软硬件、VR设备——
+    subtips: 手机、电脑软硬件、VR设备
+    button: true
+    button_text: 我的装备
+    button_link: /equipment/
   - type: like-music
     bg: https://image.baidu.com/search/down?url=https://tvax1.sinaimg.cn/large/ea98bce0gy1gyjyklqsymj21z418gqpw.jpg
     tips: 音乐偏好
@@ -166,7 +169,7 @@ likes:
 
 tj:
   provider: 51la # Value can be 51la (51la website statistics) or custom
-  url: https://api.everfu.cn/pv/ # Need to register and obtain from the 51la official website or set up your own Baidu statistics project and fill in the access address
+  url: https://v6-open.51.la/open/online/data # Need to register and obtain from the 51la official website or set up your own Baidu statistics project and fill in the access address
   img: https://7.isyangs.cn/1/65eb2e9109826-1.png # Background
 
 oneself: # Fill in as needed

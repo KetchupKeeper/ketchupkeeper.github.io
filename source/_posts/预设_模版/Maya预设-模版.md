@@ -5,7 +5,10 @@ tags:
   - 工具
   - 美术向
   - 预设模版
-abbrlink: 28f3346c
+avatar: /T/文章头像.png
+desc:
+recommend:
+published: true
 date: 2024-11-23 15:09:59
 cover: /tex/Maya.png
 ---

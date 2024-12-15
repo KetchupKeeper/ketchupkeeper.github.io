@@ -6,9 +6,11 @@ tags:
 - Technology
 - 问题
 - 预设模版
+- 工具
+- 学习计划
 avatar: /T/文章头像.png
-cover:  外景图
-desc:  作者头像下的页面描述
-recommend:  true/false true 文章推荐
-published:   true/false 文章是否发布  
+cover: 标题配图
+desc: 番茄酱守护者
+recommend: false
+published: true
 ---

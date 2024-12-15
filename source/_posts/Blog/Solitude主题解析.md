@@ -3,7 +3,13 @@ title: Solitude主题解析
 avatar: /tex/作者头像.png
 date: 2024-12-11 14:07:45
 tags:
-cover:
+  - Hexo使用
+  - Solitude主题
+  - 博客技术笔记	
+  - HTML
+  - CSS
+  - JS
+cover: /tex/Hexo.png
 desc:
 recommend:
 published:

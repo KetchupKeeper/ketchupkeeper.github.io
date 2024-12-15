@@ -20,7 +20,7 @@
 site:
   name:
     class: text # text / i_class / img
-    custom: 卯相的小破站 # Solitude / fas fa-ghost / /img/pwa/favicon.ico
+    custom: MAOXIANG # Solitude / fas fa-ghost / /img/pwa/favicon.ico
   icon: /tex/作者头像.png # Site icon / 网站图标
 # --------------------------- end ---------------------------
 
@@ -48,6 +48,7 @@ nav:
       全部文章: /archives/ || fas fa-folder-closed # item name: link || icon
       全部分类: /categories/ || fas fa-clone
       全部标签: /tags/ || fas fa-tags
+      学习计划: /tags/学习计划 || iconfont icon-a-xuexi2
     专题:
       技术美术: /tags/TA || iconfont icon-youshi1
       技术向: /tags/技术向 || iconfont icon-biancheng-01
@@ -858,9 +859,27 @@ extends:
   # Insert in head
   # 插入到 head
   head:
-    - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_4775664_t7ai2t5h3f.css" />
+    - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_4775664_542w0pmb93b.css" />
     - <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
     - <script>LA.init({id:"3Kcas37IJ3xJJWsX",ck:"3Kcas37IJ3xJJWsX"})</script>
+    - |
+      <style>
+        /* 整个段落框 */
+        #paragraph {
+          position: relative;
+          border: 1px solid #ccc;
+          padding: 10px;
+          border-radius: 5px;
+          white-space: pre-wrap; /* 保证换行后仍然遵循文本格式 */
+        }
+
+        /* 首行缩进部分 */
+        #first {
+          text-indent: 2em; /* 设置每个段落的首行缩进 */
+          margin-top: 0;
+          margin-bottom: 0;
+        }
+      </style>
   #  - <script src="https://cdn.bootcdn.net/ajax/libs/pace/1.2.4/pace.min.js"></script>
   # Insert in body
   # 插入到 body

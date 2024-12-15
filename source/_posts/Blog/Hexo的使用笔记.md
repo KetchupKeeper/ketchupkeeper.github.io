@@ -4,9 +4,12 @@ tags:
   - Hexo使用
   - 安知鱼主题
   - 博客技术笔记
-top_img: /tex/Hexo.png
+  - Technology
+avatar: /T/文章头像.png
 cover: /tex/Hexo.png
-abbrlink: 990a9ad9
+desc: 作者头像下的页面描述
+recommend: 
+published: true 
 date: 2024-11-21 19:50:19
 ---
 ---
