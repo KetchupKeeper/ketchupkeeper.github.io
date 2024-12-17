@@ -180,4 +180,8 @@ hexo-browsersync:
   notify: true        # 开启通知提醒
   open: true          # 自动打开浏览器
 
+# 水印
+watermark:
+  # 此处需要改成你的 logo 文件地址
+  logo: /icon/bilibili.png
 # --------------------------- end ---------------------------

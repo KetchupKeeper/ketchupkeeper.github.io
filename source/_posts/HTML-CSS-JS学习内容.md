@@ -44,7 +44,7 @@ HTML+CSS+JS三小时入门笔记。
 
 ## 2、HTML的结构
 
-![image-20241215224850023](https://img.maoxiang.site/Blog/20241215224850113.png)
+![image-20241215224850023](https://cdnblog.maoxiang.site/Blog/20241215224850113.png =100x200)
 
 ## 3、HTML常见的标签类型
 
@@ -67,20 +67,20 @@ HTML+CSS+JS三小时入门笔记。
 
 ## 4、HTML的属性
 
-![image-20241215225547800](https://img.maoxiang.site/Blog/20241215225547884.png)
+![image-20241215225547800](https://cdnblog.maoxiang.site/Blog/20241215225547884.png)
 
 ::: w
 **注意事项**
 
 *（属性名称不区分大小写，属性值对大小写敏感）*
 
-![image-20241215225624722](https://img.maoxiang.site/Blog/20241215225624760.png)
+![image-20241215225624722](https://cdnblog.maoxiang.site/Blog/20241215225624760.png)
 
 :::
 
 **适用于大多数HTML元素的属性**
 
-![image-20241215225813934](https://img.maoxiang.site/Blog/20241215225814017.png)
+![image-20241215225813934](https://cdnblog.maoxiang.site/Blog/20241215225814017.png)
 
 # 二、CSS（层叠样式表）
 
@@ -90,39 +90,39 @@ HTML+CSS+JS三小时入门笔记。
     用于定义网页样式和布局的样式表语言（外观和样式）。
 </p>
 
-![image-20241215225911386](https://img.maoxiang.site/Blog/20241215225911453.png)
+![image-20241215225911386](https://cdnblog.maoxiang.site/Blog/20241215225911453.png)
 
 ## 2、CSS的基本语法
 
-![image-20241215225926302](https://img.maoxiang.site/Blog/20241215225926390.png)
+![image-20241215225926302](https://cdnblog.maoxiang.site/Blog/20241215225926390.png)
 
 *CSS通常是由选择器、属性和属性值组成，多个规则可以组合在一起，以便同时应用多个样式*
 
-![image-20241215225945698](https://img.maoxiang.site/Blog/20241215225945740.png)
+![image-20241215225945698](https://cdnblog.maoxiang.site/Blog/20241215225945740.png)
 
 *CSS样式示例*
 
-![image-20241215230009994](https://img.maoxiang.site/Blog/20241215230010026.png)
+![image-20241215230009994](https://cdnblog.maoxiang.site/Blog/20241215230010026.png)
 
 ## 3、CSS的三种导入方法
 
 - 内联
 
-  ![image-20241215230041499](https://img.maoxiang.site/Blog/20241215230041556.png)
+  ![image-20241215230041499](https://cdnblog.maoxiang.site/Blog/20241215230041556.png)
 
 - 内部样式表
 
-  ![image-20241215230048128](https://img.maoxiang.site/Blog/20241215230048199.png)
+  ![image-20241215230048128](https://cdnblog.maoxiang.site/Blog/20241215230048199.png)
 
 - 外联【创建外部样式的文件（style.css)】
 
   - 创建一个外联css文件，定义h3标题样式
 
-    ![image-20241215230142147](https://img.maoxiang.site/Blog/20241215230142204.png)
+    ![image-20241215230142147](https://cdnblog.maoxiang.site/Blog/20241215230142204.png)
 
   - 文件引入到html head中
 
-    ![image-20241215230148816](https://img.maoxiang.site/Blog/20241215230148937.png)
+    ![image-20241215230148816](https://cdnblog.maoxiang.site/Blog/20241215230148937.png)
 
     <br>
 
@@ -130,41 +130,41 @@ HTML+CSS+JS三小时入门笔记。
 
 - 选择器分类
 
-  ![image-20241215230249369](https://img.maoxiang.site/Blog/20241215230249483.png)
+  ![image-20241215230249369](https://cdnblog.maoxiang.site/Blog/20241215230249483.png)
 
 - 元素选择器、
 
-  ![image-20241215230425826](https://img.maoxiang.site/Blog/20241215230425900.png)
+  ![image-20241215230425826](https://cdnblog.maoxiang.site/Blog/20241215230425900.png)
 
 - 类选择器
 
-  ![image-20241215230433546](https://img.maoxiang.site/Blog/20241215230433624.png)
+  ![image-20241215230433546](https://cdnblog.maoxiang.site/Blog/20241215230433624.png)
 
 - ID选择器
 
-  ![image-20241215230447845](https://img.maoxiang.site/Blog/20241215230447920.png)
+  ![image-20241215230447845](https://cdnblog.maoxiang.site/Blog/20241215230447920.png)
 
 - 通用选择器(选择所有元素用到的）（ *号代表引用全部）
 
-  ![image-20241215230504709](https://img.maoxiang.site/Blog/20241215230504782.png)
+  ![image-20241215230504709](https://cdnblog.maoxiang.site/Blog/20241215230504782.png)
 
 - 子元素选择器
 
-  ![image-20241215230528102](https://img.maoxiang.site/Blog/20241215230528175.png)
+  ![image-20241215230528102](https://cdnblog.maoxiang.site/Blog/20241215230528175.png)
 
 - 后代选择器（包含选择器）
 
-  ![image-20241215230533587](https://img.maoxiang.site/Blog/20241215230533680.png)
+  ![image-20241215230533587](https://cdnblog.maoxiang.site/Blog/20241215230533680.png)
 
 - 并集选择器（兄弟选择器）
 
-  ![image-20241215230539711](https://img.maoxiang.site/Blog/20241215230539812.png)
+  ![image-20241215230539711](https://cdnblog.maoxiang.site/Blog/20241215230539812.png)
 
 - 伪选择器(鼠标悬停的样式）
 
-  ![image-20241215230555480](https://img.maoxiang.site/Blog/20241215230555533.png)
+  ![image-20241215230555480](https://cdnblog.maoxiang.site/Blog/20241215230555533.png)
 
-  ![image-20241215230602531](https://img.maoxiang.site/Blog/20241215230602565.png)
+  ![image-20241215230602531](https://cdnblog.maoxiang.site/Blog/20241215230602565.png)
 
 - 常见的属性
 
@@ -180,21 +180,21 @@ HTML+CSS+JS三小时入门笔记。
 
 - 复合属性
 
-  ![image-20241215235506204](https://img.maoxiang.site/20241215235513344.png)
+  ![image-20241215235506204](https://cdnblog.maoxiang.site/20241215235513344.png)
 
 - 块、行内、行内块元素
 
-  ![image-20241215235521293](https://img.maoxiang.site/20241215235521589.png)
+  ![image-20241215235521293](https://cdnblog.maoxiang.site/20241215235521589.png)
 
 ## 5、盒子模式
 
 *盒子模式是一个可见的容器*
 
-![image-20241215235544923](https://img.maoxiang.site/20241215235545230.png)
+![image-20241215235544923](https://cdnblog.maoxiang.site/20241215235545230.png)
 
 # 三、 JS（大概了解它是干啥的）
 
-## 1、什么是JavaScript![image-20241215235615380](https://img.maoxiang.site/20241215235615589.png)
+## 1、什么是JavaScript![image-20241215235615380](https://cdnblog.maoxiang.site/20241215235615589.png)
 
 
 

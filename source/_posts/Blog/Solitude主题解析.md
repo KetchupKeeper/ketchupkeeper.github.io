@@ -39,7 +39,7 @@ Solitude解析
 
 ## 2、Solitude主题JS组成结构
 
-![image-20241211130503908](https://img.maoxiang.site/Blog/20241211130503950.png)
+![image-20241211130503908](https://cdnblog.maoxiang.site/Blog/20241211130503950.png)
 
 <br/>
 
@@ -47,7 +47,7 @@ Solitude解析
 
 - covercolor文件内容（路径: //hexo根目录/themes/solitude/source/js/covercolor)
 
-  ![image-20241211130735089](https://img.maoxiang.site/Blog/20241211130735117.png)
+  ![image-20241211130735089](https://cdnblog.maoxiang.site/Blog/20241211130735117.png)
 
   <br/>
 
@@ -155,7 +155,7 @@ Solitude解析
 
   <br/>
 
-  ![image-20241211131652681](https://img.maoxiang.site/Blog/20241211131652710.png)
+  ![image-20241211131652681](https://cdnblog.maoxiang.site/Blog/20241211131652710.png)
 
   <br/>
 
@@ -240,7 +240,7 @@ Solitude解析
 
   <br/>
 
-  ![image-20241211131729276](https://img.maoxiang.site/Blog/20241211131729306.png)
+  ![image-20241211131729276](https://cdnblog.maoxiang.site/Blog/20241211131729306.png)
 
   <br/><br/>
 
@@ -352,15 +352,15 @@ Solitude解析
 
 - 修改other.styl文件中的tags-group-all文件（路径: //hexo根目录/themes/solitude/source/css/_page)
 
-![image-20241211160618890](https://img.maoxiang.site/Blog/20241211160618980.png)
+![image-20241211160618890](https://cdnblog.maoxiang.site/Blog/20241211160618980.png)
 
 - 修改`animation.styl`技术栈朝向（路径: //hexo根目录/themes/solitude/source/css/_global)
 
-  ![image-20241211163949932](https://img.maoxiang.site/Blog/20241211163950005.png)
+  ![image-20241211163949932](https://cdnblog.maoxiang.site/Blog/20241211163950005.png)
 
 - 演示例子
 
-  ![image-20241211160958065](https://img.maoxiang.site/Blog/20241211160958208.png)
+  ![image-20241211160958065](https://cdnblog.maoxiang.site/Blog/20241211160958208.png)
 
 ## 2、
 

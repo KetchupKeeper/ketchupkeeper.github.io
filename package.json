@@ -13,7 +13,9 @@
   },
   "dependencies": {
     "@centerforopenscience/markdown-it-imsize": "^2.0.1",
+    "gifwrap": "^0.10.1",
     "hexo": "^7.3.0",
+    "hexo-asset-image": "^1.0.0",
     "hexo-browsersync": "^0.3.0",
     "hexo-directory-category": "^1.1.4",
     "hexo-generator-archive": "^2.0.0",
@@ -28,6 +30,7 @@
     "hexo-server": "^3.0.0",
     "hexo-swpp": "^4.0.0-alpha.122",
     "hexo-theme-landscape": "^1.0.0",
+    "jimp": "^1.6.0",
     "markdown-it-checkbox": "^1.1.0",
     "markdown-it-container": "^4.0.0",
     "markdown-it-expandable": "^1.0.2",
