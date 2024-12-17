@@ -30,11 +30,11 @@ B站学习视频地址:(https://www.bilibili.com/video/BV1Ev411j7e5?t=215.7&p=2)
 
 - 基本概念
 
-![image-20241210170438121](http://img.maoxiang.site/Blog/20241210170438289.png)
+![image-20241210170438121](https://cdnblog.maoxiang.site/Blog/20241210170438289.png)
 
 - 文件存在的各种状态
 
-  ![image-20241210170605892](http://img.maoxiang.site/Blog/20241210170606035.png)
+  ![image-20241210170605892](https://cdnblog.maoxiang.site/Blog/20241210170606035.png)
 
 # 二、Sourcetree基础操作使用
 
@@ -44,31 +44,31 @@ B站学习视频地址:(https://www.bilibili.com/video/BV1Ev411j7e5?t=215.7&p=2)
 
 - （1）创建git仓库（本地创建）
 
-  ![image-20241210171338831](http://img.maoxiang.site/Blog/20241210171338882.png)
+  ![image-20241210171338831](https://cdnblog.maoxiang.site/Blog/20241210171338882.png)
 
 - （2）拉取远端仓库（clone git仓库）
 
-  ![image-20241210174209945](http://img.maoxiang.site/Blog/20241210174210012.png)
+  ![image-20241210174209945](https://cdnblog.maoxiang.site/Blog/20241210174210012.png)
 
 - （3）推送/拉取git仓库到远端
 
-  ![image-20241210174313182](http://img.maoxiang.site/Blog/20241210174313225.png)
+  ![image-20241210174313182](https://cdnblog.maoxiang.site/Blog/20241210174313225.png)
 
 ## 2、回滚操作
 
 - （1）历史状态界面
 
-  ![image-20241210175058718](http://img.maoxiang.site/Blog/20241210175058762.png)
+  ![image-20241210175058718](https://cdnblog.maoxiang.site/Blog/20241210175058762.png)
 
 - （2）切换到历史记录/回滚
 
   - 切换历史状态（双击指定历史时间线/历史记录即可）
 
-    ![image-20241210185303084](http://img.maoxiang.site/Blog/20241210185303129.png)
+    ![image-20241210185303084](https://cdnblog.maoxiang.site/Blog/20241210185303129.png)
 
   - 回滚（删除回溯到指定历史版本时间线）
 
-    ![image-20241210222540111](http://img.maoxiang.site/Blog/20241210222540185.png)
+    ![image-20241210222540111](https://cdnblog.maoxiang.site/Blog/20241210222540185.png)
 
   - 回滚模式介绍
 
@@ -76,7 +76,7 @@ B站学习视频地址:(https://www.bilibili.com/video/BV1Ev411j7e5?t=215.7&p=2)
 
       **解释：**这种合并方式会将此次提交回滚到指定的提交位置，但在此过程中会将修改过的文件暂存到暂存区。这意味着，如果你选择了软合并，那些修改过的文件会保留在暂存区，你可以在之后提交这些更改。
 
-      ![image-20241210223328712](http://img.maoxiang.site/Blog/20241210223328822.png)
+      ![image-20241210223328712](https://cdnblog.maoxiang.site/Blog/20241210223328822.png)
 
     - 混合合并（保持工作副本并重置索引）
 
@@ -94,25 +94,25 @@ B站学习视频地址:(https://www.bilibili.com/video/BV1Ev411j7e5?t=215.7&p=2)
 
 - （1）创建一个dev分支
 
-  ![image-20241210224553302](http://img.maoxiang.site/Blog/20241210224553367.png)
+  ![image-20241210224553302](https://cdnblog.maoxiang.site/Blog/20241210224553367.png)
 
 - （2）怎么管理分支
 
   - 分支历史信息展示
 
-    ![image-20241210224909190](http://img.maoxiang.site/Blog/20241210224909230.png)
+    ![image-20241210224909190](https://cdnblog.maoxiang.site/Blog/20241210224909230.png)
 
   - 分支切换
 
     双击即可切换分支
 
-    ![image-20241210224937258](http://img.maoxiang.site/Blog/20241210224937288.png)
+    ![image-20241217142657944](https://cdnblog.maoxiang.site/Blog/2024-12%2F1734416817.png)
 
 - （3）合并分支
 
   - 方法：选择需要合并到master主分支下的其他分支
 
-    ![image-20241210225449921](http://img.maoxiang.site/Blog/20241210225449976.png)
+    ![image-20241217143047278](https://cdnblog.maoxiang.site/Blog/2024-12%2F1734417047.png)
 
   - 选项解释：
 
@@ -120,7 +120,7 @@ B站学习视频地址:(https://www.bilibili.com/video/BV1Ev411j7e5?t=215.7&p=2)
 
       这个选项通常是指在合并操作完成后，Git会立即创建一个新的提交来记录合并的结果。这个新提交会包含两个分支的变更历史，通常在没有冲突的情况下自动完成。
 
-      ![image-20241210230003271](http://img.maoxiang.site/Blog/20241210230003372.png)
+      ![20241210230003372](https://cdnblog.maoxiang.site/Blog/2024-12%2F1734417081.png)
 
     - 包括被合并提交的信息内容
 
@@ -134,7 +134,7 @@ B站学习视频地址:(https://www.bilibili.com/video/BV1Ev411j7e5?t=215.7&p=2)
 
       变基（Rebase）是一种将一系列提交从一个分支上摘下来，然后再应用到另一个分支上的机制。使用变基可以创建一个更线性的项目历史，因为它将一个分支上的更改重新应用到另一个分支的最新版本上，而不是通过合并来整合更改。变基操作可以通过`git rebase`命令来执行。
 
-      ![image-20241210225932670](http://img.maoxiang.site/Blog/20241210225932770.png)
+      ![20241210230222563](https://cdnblog.maoxiang.site/Blog/2024-12%2F1734417097.png)
 
     - 检测相似的重命名（**%）
 
@@ -146,7 +146,7 @@ B站学习视频地址:(https://www.bilibili.com/video/BV1Ev411j7e5?t=215.7&p=2)
 
       切换到master分支->选择要被整合的提交->右键遴选
 
-      ![image-20241210230222466](http://img.maoxiang.site/Blog/20241210230222563.png)
+      ![20241210230222563](https://cdnblog.maoxiang.site/Blog/2024-12%2F1734416660.png)
 
     - 
 

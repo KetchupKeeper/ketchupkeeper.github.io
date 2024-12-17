@@ -8,7 +8,7 @@ tags:
 cover: /tex/HLSL+Unity.png
 avatar: /T/文章头像.png
 desc: 作者头像下的页面描述
-recommend:
+recommend: true
 published: true
 date: 2024-12-02 10:50:25
 ---

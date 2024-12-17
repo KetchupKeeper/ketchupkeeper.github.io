@@ -8,7 +8,7 @@ links:
         - name: -不捣药的玉兔- # 友链名称
           link: https://space.bilibili.com/634931989?spm_id_from=333.999.0.0 # 友链地址
           descr: 半路出家程序媛，立志成为Shader渲染小能手 # 友链简介
-          avatar: http://img.maoxiang.site/Blog/20241214151423229.jpg # 显示头像
+          avatar: https://source.unsplash.com/random/800x600
           topimg: https://ui.everfu.cn/siteshot/202408280110974.png/siteshot # 如果是card模式下，将显示
           tag: B站UP
           color: vip
