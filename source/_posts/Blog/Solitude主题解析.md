@@ -31,13 +31,13 @@ Solitude解析
 
 ---
 
-# 一、Solitude主题结构
+## 一、Solitude主题结构
 
-## 1、Solitude主题样式结构
+### 1、Solitude主题样式结构
 
 
 
-## 2、Solitude主题JS组成结构
+### 2、Solitude主题JS组成结构
 
 ![image-20241211130503908](/Blog/20241211130503950.png)
 
@@ -346,9 +346,9 @@ Solitude解析
 
 
 
-# 二、Solitude个人定制需求/解决方案
+## 二、Solitude个人定制需求/解决方案
 
-## 1、更改主题Banner左侧技术栈移动朝向
+### 1、更改主题Banner左侧技术栈移动朝向
 
 - 修改other.styl文件中的tags-group-all文件（路径: //hexo根目录/themes/solitude/source/css/_page)
 
@@ -362,6 +362,6 @@ Solitude解析
 
   ![image-20241211160958065](/Blog/20241211160958208.png)
 
-## 2、
+### 2、
 
 ---

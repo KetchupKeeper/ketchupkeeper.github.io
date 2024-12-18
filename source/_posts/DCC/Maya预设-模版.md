@@ -2,7 +2,6 @@
 title: Maya预设/模版
 tags:
   - Maya
-  - 工具
   - 美术向
   - 预设模版
 avatar: /T/文章头像.png

@@ -2,7 +2,6 @@
 title: 3dsMax预设/模版
 tags:
   - 3dsMax
-  - 工具
   - 美术向
   - 预设模版
 avatar: /T/文章头像.png

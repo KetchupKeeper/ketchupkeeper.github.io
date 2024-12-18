@@ -180,14 +180,14 @@ aside:
   # Sticky: Fixed position / noSticky: Not fixed position
   # Sticky: 固定位置 / noSticky: 不固定位置
   home: # 在主页显示的侧边栏信息
-    noSticky: about,newestPost,newest_comment
-    Sticky: allInfo
+    noSticky: about
+    Sticky: newestPost,newest_comment,allInfo
   post: # 在文章页显示的侧边栏信息  
-    noSticky: about,newestPost,newest_comment
-    Sticky: allInfo
+    noSticky: about
+    Sticky: newestPost,newest_comment,allInfo
   page: # 在页面中显示的侧边栏信息
-    noSticky: about,newestPost,newest_comment
-  Sticky: allInfo
+    noSticky: about
+  Sticky: newestPost,newest_comment,allInfo
   # 菜单栏位置(0: 左 1: 右)
   position: 1 # Sidebar positioning(0: left 1: right)
 
@@ -263,6 +263,10 @@ aside:
        - Unreal
        - Unity
        - DCC
+       - Blender
+       - 美术向
+       - 程序向
+       - Technology
   # --------------------------- end ---------------------------
 
   # --------------------------- start ---------------------------
