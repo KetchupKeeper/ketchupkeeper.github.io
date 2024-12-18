@@ -35,7 +35,7 @@
     "markdown-it-container": "^4.0.0",
     "markdown-it-expandable": "^1.0.2",
     "markdown-it-imsize": "^2.0.1",
-    "puppeteer": "^23.10.4",
+    "puppeteer": "^23.11.0",
     "swpp-backends": "^3.0.0-alpha.702",
     "uuid": "^7.0.3"
   },
