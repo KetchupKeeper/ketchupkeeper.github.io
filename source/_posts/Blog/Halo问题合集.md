@@ -7,7 +7,7 @@ tags:
   - Halo
   - 解决方案
 avatar: /T/文章头像.png
-cover: /tex/Halo.png
+cover: /tex/Halo.avif
 desc: 作者头像下的页面描述
 recommend:
 published: true

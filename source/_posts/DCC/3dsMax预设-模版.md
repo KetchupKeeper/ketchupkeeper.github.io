@@ -9,7 +9,7 @@ desc:
 recommend:
 published: true
 date: 2024-11-23 15:09:34
-cover: /tex/3ds Max.png
+cover: /tex/3ds Max.avif
 ---
 
 ---

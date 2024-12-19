@@ -9,6 +9,6 @@ desc:
 recommend:
 published: true
 date: 2024-11-23 15:09:59
-cover: /tex/Maya.png
+cover: /tex/Maya.avif
 ---
 

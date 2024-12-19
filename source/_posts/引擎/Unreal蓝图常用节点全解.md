@@ -6,7 +6,7 @@ tags:
   - 工具
   - Unreal
 avatar: /T/文章头像.png
-cover: /tex/UE.png
+cover: /tex/UE.avif
 desc: 番茄酱守护者
 recommend: false
 published: true

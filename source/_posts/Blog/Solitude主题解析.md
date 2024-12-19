@@ -9,7 +9,7 @@ tags:
   - HTML
   - CSS
   - JS
-cover: /tex/Hexo.png
+cover: /tex/Hexo.avif
 desc:
 recommend:
 published:
@@ -39,7 +39,7 @@ Solitude解析
 
 ### 2、Solitude主题JS组成结构
 
-![image-20241211130503908](/Blog/20241211130503950.png)
+![image-20241211130503908](/Blog/20241211130503950.avif)
 
 <br/>
 
@@ -47,7 +47,7 @@ Solitude解析
 
 - covercolor文件内容（路径: //hexo根目录/themes/solitude/source/js/covercolor)
 
-  ![image-20241211130735089](/Blog/20241211130735117.png)
+  ![image-20241211130735089](/Blog/20241211130735117.avif)
 
   <br/>
 
@@ -155,7 +155,7 @@ Solitude解析
 
   <br/>
 
-  ![image-20241211131652681](/Blog/20241211131652710.png)
+  ![image-20241211131652681](/Blog/20241211131652710.avif)
 
   <br/>
 
@@ -240,7 +240,7 @@ Solitude解析
 
   <br/>
 
-  ![image-20241211131729276](/Blog/20241211131729306.png)
+  ![image-20241211131729276](/Blog/20241211131729306.avif)
 
   <br/><br/>
 
@@ -352,15 +352,15 @@ Solitude解析
 
 - 修改other.styl文件中的tags-group-all文件（路径: //hexo根目录/themes/solitude/source/css/_page)
 
-![image-20241211160618890](/Blog/20241211160618980.png)
+![image-20241211160618890](/Blog/20241211160618980.avif)
 
 - 修改`animation.styl`技术栈朝向（路径: //hexo根目录/themes/solitude/source/css/_global)
 
-  ![image-20241211163949932](/Blog/20241211163950005.png)
+  ![image-20241211163949932](/Blog/20241211163950005.avif)
 
 - 演示例子
 
-  ![image-20241211160958065](/Blog/20241211160958208.png)
+  ![image-20241211160958065](/Blog/20241211160958208.avif)
 
 ### 2、
 

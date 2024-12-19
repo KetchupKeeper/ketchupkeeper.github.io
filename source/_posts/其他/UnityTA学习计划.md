@@ -4,7 +4,7 @@ tags:
   - TA
   - 学习计划
 avatar: /T/文章头像.png
-cover: /tex/HLSL+Unity.png
+cover: /tex/HLSL+Unity.avif
 desc: 番茄酱守护者
 recommend: false
 published: true

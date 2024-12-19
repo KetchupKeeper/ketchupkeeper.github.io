@@ -5,7 +5,7 @@ tags:
   - 安知鱼主题
   - 博客技术笔记
   - 预设模版
-cover: /tex/Hexo.png
+cover: /tex/Hexo.avif
 avatar: /T/文章头像.png
 desc: 作者头像下的页面描述
 recommend:

@@ -6,7 +6,7 @@ tags:
   - 博客技术笔记
   - Technology
 avatar: /T/文章头像.png
-cover: /tex/Hexo.png
+cover: /tex/Hexo.avif
 desc: 作者头像下的页面描述
 recommend: true
 published: true

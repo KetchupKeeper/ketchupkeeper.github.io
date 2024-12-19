@@ -7,7 +7,7 @@ tags:
   - solitude主题
   - 博客技术笔记
   - Technology
-cover: /tex/Hexo.png
+cover: /tex/Hexo.avif
 desc:
 recommend:
 published:
@@ -89,7 +89,7 @@ Hexo配置提升（插件篇）
   | markdown-it-mark     | 突出显示 | `==标记==`                  | 标记                                                         |
   | markdown-it-sub      | 下标     | `H~2~O`                     | H2O                                                          |
   | markdown-it-sup      | 上标     | `X^2^`                      | X2                                                           |
-  | markdown-it-checkbox | 复选框   | 未选：`- [ ]` 选中：`- [x]` | ![- [ ] 未选  - [x] 选中](/Blog/20241212164515192.png) |
+  | markdown-it-checkbox | 复选框   | 未选：`- [ ]` 选中：`- [x]` | ![- [ ] 未选  - [x] 选中](/Blog/20241212164515192.avif)      |
 
   
 

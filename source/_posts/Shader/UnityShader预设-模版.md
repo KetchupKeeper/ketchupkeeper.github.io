@@ -5,7 +5,7 @@ tags:
   - Shader
   - HLSL
   - 预设模版
-cover: /tex/HLSL+Unity.png
+cover: /tex/HLSL+Unity.avif
 avatar: /T/文章头像.png
 desc: 作者头像下的页面描述
 recommend: true

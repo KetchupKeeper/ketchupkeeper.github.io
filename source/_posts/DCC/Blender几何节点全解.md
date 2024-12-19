@@ -6,7 +6,7 @@ tags:
   - geometry
   - 技术向
 avatar: /T/文章头像.png
-cover: /tex/Blender.png
+cover: /tex/Blender.avif
 desc: 番茄酱守护者
 recommend: false
 published: true

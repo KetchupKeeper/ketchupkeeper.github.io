@@ -10,7 +10,7 @@ desc:
 recommend: 
 published: true
 date: 2024-11-23 15:09:04
-cover: /tex/Blender.png
+cover: /tex/Blender.avif
 ---
 
 ---
