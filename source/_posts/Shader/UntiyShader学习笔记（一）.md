@@ -24,7 +24,7 @@ date: 2024-12-18 11:23:08······
 
 **环境配置：**
 
-- [UnityTA学习计划](https://blog.maoxiang.site/unityta)
+- [UnityTA学习计划](http://localhost:4000/2024/12/18/%E5%85%B6%E4%BB%96/UnityTA%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/)
 - VScode
 - Unity2022
 - UnityShader入门精要
