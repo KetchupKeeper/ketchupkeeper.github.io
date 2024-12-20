@@ -4,7 +4,7 @@ tags:
   - 竞赛
   - 吉比特
   - Gamejam
-cover: /tex/GameJam.png
+cover: /tex/GameJam.avif
 date: 2024-11-28 20:34:16
 desc: 
 recommend: false

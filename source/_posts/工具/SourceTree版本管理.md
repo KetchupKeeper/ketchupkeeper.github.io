@@ -6,7 +6,7 @@ tags:
  - 工具
  - Git
  - Technology
-cover: /tex/SourceTree.png
+cover: /tex/SourceTree.avif
 desc:
 recommend:
 published:

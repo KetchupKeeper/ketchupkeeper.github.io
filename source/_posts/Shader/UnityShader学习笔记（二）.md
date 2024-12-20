@@ -33,7 +33,7 @@ date: 2024-12-19 15:59:59
 
 
 
-```ShaderLab
+```Shader
 Shader "123" //Shader Name  目录结构写法："CS01/123"
 {
     Properties //实例属性，实例在材质面板上的属性
