@@ -41,6 +41,9 @@ importers:
       hexo-generator-tag:
         specifier: ^2.0.0
         version: 2.0.0
+      hexo-pdf:
+        specifier: ^1.1.1
+        version: 1.1.1
       hexo-renderer-ejs:
         specifier: ^2.0.0
         version: 2.0.0
@@ -832,6 +835,10 @@ packages:
   ee-first@1.1.1:
     resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==, tarball: https://registry.npmmirror.com/ee-first/-/ee-first-1.1.1.tgz}
 
+  ejs@1.0.0:
+    resolution: {integrity: sha512-hK3tEqj0pP7UF5UHKNiRvm3zCaYk7UI4EBJ6wwN5O2qX1WdSovmqvUHEbNOJuglXzVkk/H0r7vgst3mVcQXrPA==, tarball: https://registry.npmmirror.com/ejs/-/ejs-1.0.0.tgz}
+    deprecated: Critical security bugs fixed in 2.5.5
+
   ejs@3.1.10:
     resolution: {integrity: sha512-UeJmFfOrAQS8OJWPZ4qtgHyWExa088/MtK5UEyoJGFH67cDEXkZSviOiKRCZ4Xij0zxI3JECgYs3oKx+AizQBA==, tarball: https://registry.npmmirror.com/ejs/-/ejs-3.1.10.tgz}
     engines: {node: '>=0.10.0'}
@@ -1206,6 +1213,10 @@ packages:
   hexo-pagination@3.0.0:
     resolution: {integrity: sha512-8oo1iozloZo7TojPVYg4IxL3SJKCBdSJ908fTlIxIK7TWJIKdYnQlW31+12DBJ0NhVZA/lZisPObGF08wT8fKw==, tarball: https://registry.npmmirror.com/hexo-pagination/-/hexo-pagination-3.0.0.tgz}
     engines: {node: '>=14'}
+
+  hexo-pdf@1.1.1:
+    resolution: {integrity: sha512-oC5HMJ8KcJF7zTMe8l+BbXPY0myFMAbWiqQOAuEpR9ZegurAkjVAAT97rJl/idF3yIL5iJg5KXPX0tkjZd0tyA==, tarball: https://registry.npmmirror.com/hexo-pdf/-/hexo-pdf-1.1.1.tgz}
+    engines: {node: '>= 0.10.0'}
 
   hexo-renderer-ejs@2.0.0:
     resolution: {integrity: sha512-qCjE1IdwgDgv65qyb0KMVCwCdSVAkH0vwAe9XihjvaKWkmb9dtt8DgErOdqCXn0HReSyWiEVP2BrLRj3gyHwOQ==, tarball: https://registry.npmmirror.com/hexo-renderer-ejs/-/hexo-renderer-ejs-2.0.0.tgz}
@@ -3331,6 +3342,8 @@ snapshots:
 
   ee-first@1.1.1: {}
 
+  ejs@1.0.0: {}
+
   ejs@3.1.10:
     dependencies:
       jake: 10.9.2
@@ -3790,6 +3803,10 @@ snapshots:
       picocolors: 1.1.1
 
   hexo-pagination@3.0.0: {}
+
+  hexo-pdf@1.1.1:
+    dependencies:
+      ejs: 1.0.0
 
   hexo-renderer-ejs@2.0.0:
     dependencies:
