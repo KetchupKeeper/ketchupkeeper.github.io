@@ -32,13 +32,13 @@ nav:
   # 左侧盒子
   group:
    Social Circle: # name
-     CSDN: https://blog.csdn.net/qq_63656904?type=blog || /icon/csdn.png # name: url || icon
-     微博: https://weibo.com/u/6336058768 || /icon/weibo.png
-     GGAC: https://www.ggac.com/user/435914 || /icon/ggac.png
-     BiliBili: https://space.bilibili.com/32775082?spm_id_from=333.999.0.0 || /icon/bilibili.png
+     CSDN: https://blog.csdn.net/qq_63656904?type=blog || /icon/A/csdn.png # name: url || icon
+     微博: https://weibo.com/u/6336058768 || /icon/A/weibo.png
+     GGAC: https://www.ggac.com/user/435914 || /icon/A/ggac.png
+     BiliBili: https://space.bilibili.com/32775082?spm_id_from=333.999.0.0 || /icon/A/bilibili.png
    Git:
-     GitHub: https://github.com/KetchupKeeper || /icon/github.png
-     Gitee: https://gitee.com/wiajwnaw || /icon/gitee.png
+     GitHub: https://github.com/KetchupKeeper || /icon/A/github.png
+     Gitee: https://gitee.com/wiajwnaw || /icon/A/gitee.png
 
   # Menu
   # 菜单
@@ -51,9 +51,8 @@ nav:
       书库: /tags/pdf || iconfont icon-a-xuexi2
     专题:
       技术美术: /tags/TA || iconfont icon-youshi1
-      技术向: /tags/技术向 || iconfont icon-biancheng-01
-      美术向: /tags/美术向 || iconfont icon-meishu
       学习计划: /tags/学习计划 || iconfont icon-celianggongju1 
+      年度总结: /tags/年度总结 || iconfont icon-niandujihua
     链接:
       在线工具: /tlink/ || fas fa-toolbox
       #朋友圈: /moments/ || fas fa-wifi
@@ -86,73 +85,73 @@ hometop:
     url: 技术美术/图形学爱好者 # 小字
     icon:
       Blender:
-        img: /icon-T/Blender.png
+        img: /icon/B/Blender.png
         color: "#1a5b6d"
       HTML: # name
         img: https://i.postimg.cc/vBWVnY8q/html.png # url
         color: "#e9572b" # color
       Unity:
-        img: /icon-T/Unity.png
+        img: /icon/B/Unity.png
         colheor: "#000000"
       Flutter:
         img: https://i.postimg.cc/hPC7T3gB/flutter.png
         color: "#ffffff"
       Git:
-        img: https://i.postimg.cc/nhgjwjCS/git.png
+        img: /icon/B/git.png
         color: "#df5b40"
       Maya:
-        img: /icon-T/Maya.png
+        img: /icon/B/Maya.png
         color: "#3398bc"
       Ps:
-        img: /icon-T/Ps.png
+        img: /icon/B/Ps.png
         color: "#090a16"
       WebPack:
         img: https://i.postimg.cc/dVLZBmtT/webpack.png
         color: "#2e3a41"
       Shader:
-        img: /icon-T/Shader.png
+        img: /icon/B/Shader.png
         color: "#ffffff"
       JS:
         img: https://i.postimg.cc/3N10Ltv2/js.png
         color: "#f7cb4f"
       Unreal:
-        img: /icon-T/Unreal.png
+        img: /icon/B/Unreal.png
         color: "#000000"
       Docker:
         img: https://i.postimg.cc/8Pk6Fg24/docker.png
         color: "#57b6e6"
       Vscode:
-        img: /icon-T/Vscode.png
+        img: /icon/B/Vscode.png
         color: "#ededed"
       3ds Max:
-        img: /icon-T/3ds_Max.png
+        img: /icon/B/3ds_Max.png
         color: "#3398bc"
       Ae:
-        img: /icon-T/AE.png
+        img: /icon/B/AE.png
         color: "#00005b"
       Cocos:
-        img: /icon-T/Cocos.png
+        img: /icon/B/Cocos.png
         color: "#04c5e1"
       github:
-        img: /icon-T/github.png
+        img: /icon/B/github.png
         color: "#000000"
       C#:
-        img: /icon-T/Csp.png
+        img: /icon/B/Csp.png
         color: "#32135e"
       Godot:
-        img: /icon-T/Godot.png
+        img: /icon/B/Godot.png
         color: "#006c83"
       Houdini:
-        img: /icon-T/Houdini.png
+        img: /icon/B/Houdini.png
         color: "#f26722"
       C++:
-        img: /icon-T/C++.png
+        img: /icon/B/C++.png
         color: "#004678"
       SD:
-        img: /icon-T/SD.png
+        img: /icon/B/SD.png
         color: "#1e3101"
       Pt:
-        img: /icon-T/Pt.png
+        img: /icon/B/Pt.png
         color: "#1e3101"
   group:
      预设模版: /tags/预设模版/ || fas fa-fire || linear-gradient(to right,#f65,#ffbf37)
@@ -162,7 +161,7 @@ hometop:
     sup: 卯相的小破站
     title: BiliBili-干杯！
     url: https://space.bilibili.com/32775082?spm_id_from=333.999.0.0
-    img: /tex/Bilibili.png
+    img: /T/Bilibili.png
     color: "none"
 
 # Article Top Banner
@@ -197,7 +196,7 @@ aside:
   card:
     style: 1 # 0: default 1: style 1 2: style 2
     author:
-      img: /tex/fanzao.avif # url
+      img: /T/心情.avif # url
       sticker: /T/作者头像.png # url, 24x24 size
     url: /about/ # link / 点击头像跳转链接
     background: #https://s3.qjqq.cn/47/663af296b85f4.webp!color # Background image(Invalid if style is 0)
@@ -397,11 +396,11 @@ post:
       #   url: https://github.com/sponsors/everfu
       #   color: var(--efu-black)
       - name: 微信
-        qcode: /tex/微信.avif
+        qcode: /T/微信.avif
         url: /about/
         color: var(--efu-green)
       - name: 支付宝
-        qcode: /tex/支付宝.avif
+        qcode: /T/支付宝.avif
         url: /about/
         color: var(--efu-blue)
 
@@ -863,7 +862,7 @@ extends:
   # Insert in head
   # 插入到 head
   head:
-    - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_4775664_542w0pmb93b.css" />
+    - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_4775664_3q3uz1o15vk.css" />
     - <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
     - <script>LA.init({id:"3Kcas37IJ3xJJWsX",ck:"3Kcas37IJ3xJJWsX"})</script>
     - |

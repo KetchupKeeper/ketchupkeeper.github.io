@@ -7,7 +7,7 @@ authorinfo:
     - 脚踏实地行动派 🏃
     - 团队合作者 🧱
     - 路见不平就捣腾 💢
-  image: /tex/fanzao.jpg
+  image: /T/心情.avif
 
 title: 关于本站
 
@@ -28,64 +28,64 @@ skills: # Add as needed
   subtitle: 解锁创造力
   tags:
     - title: Blender
-      img: /icon-T/Blender.png
+      img: /icon/B/Blender.png
       color: "#1a5b6d"
     - title: Unity
-      img: /icon-T/Unity.png
+      img: /icon/B/Unity.png
       color: "#000000"
     - title: Git
-      img: https://npm.elemecdn.com/wleelw-blog-abs@1.0.0/img/icon/git.png
+      img: /icon/B/git.png
       color: "#df5b40"
     - title: Docker
       img: https://i.postimg.cc/8Pk6Fg24/docker.png
       color: "#57b6e6"
     - title: Visual Studio
-      img: https://npm.elemecdn.com/wleelw-blog-abs@1.0.0/img/icon/vs-logo.svg
+      img: /icon/B/Visual Studio.png
       color: "#ffffff"
     - title: Maya
-      img: /icon-T/Maya.png
+      img: /icon/B/Maya.png
       color: "#3398bc"
     - title: Ps
-      img: /icon-T/Ps.png
+      img: /icon/B/Ps.png
       color: "#090a16"
     - title: Shader
-      img: /icon-T/Shader.png
+      img: /icon/B/Shader.png
       color: "#ffffff"
     - title: Unreal
-      img: /icon-T/Unreal.png
+      img: /icon/B/Unreal.png
       color: "#000000"
     - title: Vscode
-      img: /icon-T/Vscode.png
+      img: /icon/B/Vscode.png
       color: "#ededed"
     - title: 3ds Max
-      img: /icon-T/3ds_Max.png
+      img: /icon/B/3ds_Max.png
       color: "#3398bc"
     - title: Ae
-      img: /icon-T/AE.png
+      img: /icon/B/AE.png
       color: "#00005b"
     - title: Cocos
-      img: /icon-T/Cocos.png
+      img: /icon/B/Cocos.png
       color: "#04c5e1"
     - title: github
-      img: /icon-T/github.png
+      img: /icon/B/github.png
       color: "#000000"
     - title: C#
-      img: /icon-T/Csp.png
+      img: /icon/B/Csp.png
       color: "#32135e"
     - title: Godot
-      img: /icon-T/Godot.png
+      img: /icon/B/Godot.png
       color: "#006c83"
     - title: Houdini
-      img: /icon-T/Houdini.png
+      img: /icon/B/Houdini.png
       color: "#f26722"
     - title: C++
-      img: /icon-T/C++.png
+      img: /icon/B/C++.png
       color: "#004678"
     - title: SD
-      img: /icon-T/SD.png
+      img: /icon/B/SD.png
       color: "#1e3101"
     - title: Pt
-      img: /icon-T/Pt.png
+      img: /icon/B/Pt.png
       color: "#1e3101"
 careers:
   title: 个人经历
@@ -115,12 +115,12 @@ personalities:
   title: 指挥官
   color: "#88619a"
   type: ESFJ-A
-  image: /tex/ENTJ.png
+  image: /Blog/about/ENTJ.png
   link: https://www.16personalities.com/
   linkText: 16personalities
   typeLink: https://www.16personalities.com/ch/entj-%E4%BA%BA%E6%A0%BC
   typeName: 指挥官
-  myphoto: /tex/ENTJ-2.png
+  myphoto: /Blog/about/ENTJ-2.png
 
 motto:
   title: 座右铭
@@ -136,7 +136,7 @@ expertise:
 
 game:
   - title: 游戏爱好
-    img: https://gd-hbimg.huaban.com/a2993d931f02f340dc8a3d8371626cb75b218cca143ee1-kY9sjr_fw1200webp
+    img: /Blog/about/艾欧尼亚.avif
     subtitle: 英雄联盟
     box_shadow: '0 -69px 203px 11px #04120f inset'
     icon_group:
@@ -144,14 +144,14 @@ game:
       - https://7.isyangs.cn/66/6738b48045a5b-66.webp
     tips_right: 【艾欧尼亚】
   - title: 游戏爱好
-    img: https://www.10wallpaper.com/wallpaper/1366x768/1806/2019_Dying_Light_2_Game_4K_Poster_1366x768.jpg
+    img: /Blog/about/消逝.avif
     subtitle: 消逝的光芒
     box_shadow: '0 -69px 203px 11px #767676 inset'
     tips_left: ID：卯相
 
 likes:
   - type: like-technology
-    bg: /tex/好物背景.png
+    bg: /T/好物背景.avif
     tips: 兴趣偏好
     title: 数码科技
     subtips: 手机、电脑软硬件、VR设备
@@ -159,7 +159,7 @@ likes:
     button_text: 我的装备
     button_link: /equipment/
   - type: like-music
-    bg: https://image.baidu.com/search/down?url=https://tvax1.sinaimg.cn/large/ea98bce0gy1gyjyklqsymj21z418gqpw.jpg
+    bg: /Blog/about/7d4fe8c060b2f3ef8ad5f65a75167e98.avif
     tips: 音乐偏好
     title: Hiphop、轻音乐、金克斯进行曲
     subtips: 欢迎来到 卯相 的音乐库
@@ -179,8 +179,8 @@ oneself: # Fill in as needed
   major: 软件工程 # Major
   occupation: 学生 # Occupation
   map: # Map of your location
-    light: http://img.maoxiang.site/Blog/20241213173237510.png # Daytime
-    dark: http://img.maoxiang.site/Blog/20241213173237510.png # Nighttime
+    light: /Blog/about/20241213173237510.avif # Daytime
+    dark: /Blog/about/20241213172920548.avif # Nighttime
 
 cause:
   tip: 关于我的博客

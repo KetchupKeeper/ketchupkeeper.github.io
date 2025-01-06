@@ -9,7 +9,7 @@ links:
           link: https://blog.rainvice.com/ # 友链地址
           descr: 分享编程与思维认知 # 友链简介
           avatar: https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Ff5024e73-10cc-4a93-8339-6f5cd059cac1%2Favatar.png?table=collection&id=2c68df66-dd53-4a91-b6c6-fabe588a8bde&t=2c68df66-dd53-4a91-b6c6-fabe588a8bde&width=800&cache=v2 # 显示头像
-          topimg: /Blog/20241215195159733.png # 如果是card模式下，将显示
+          topimg: /Blog/posts/20241215195159733.png # 如果是card模式下，将显示
           tag: 博主
           color: vip
    - class_name: 技术

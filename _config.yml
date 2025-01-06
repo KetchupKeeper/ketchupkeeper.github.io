@@ -183,5 +183,5 @@ hexo-browsersync:
 # 水印
 watermark:
   # 此处需要改成你的 logo 文件地址
-  logo: /icon/bilibili.png
+  logo: /icon/A/bilibili.png
 # --------------------------- end ---------------------------

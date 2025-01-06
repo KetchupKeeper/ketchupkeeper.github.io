@@ -26,7 +26,7 @@ date: 2024-12-19 15:59:59
 
 - [UnityTA学习计划](http://localhost:4000/2024/12/18/%E5%85%B6%E4%BB%96/UnityTA%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/)
 - VScode
-- Unity2022
+- Unity2022·····
 - UnityShader入门精要
 
 ---
@@ -209,4 +209,241 @@ Shader "CS02/MiniShader" //Shader的真正名字  可以是路径式的格式
             };
 
 ```
+
+制作测试示例
+
+- 动态波纹案例
+
+  本次示例学到了Time场景时间参数、clip参数的使用和控制UV的方式。
+
+  ```
+  shader "Unit/ceshi"
+  {
+      Properties
+      {
+          _Color("Color",Color) = (1,1,1,1)
+          _MainTex("MainTex",2D) = "white"
+          _Noistex("Noistex",2D) = "white"
+          _Vector("Vector",Vector) = (0,0,0,0)
+          _Ton("Ton",Float) = 0.0
+          _Speed("Speed",Vector) = (0,0,0,0)
+      }
+      SubShader
+      {
+          Pass
+          {
+              CGPROGRAM
+              #pragma vertex vert
+              #pragma  fragment frag
+              #include "Unitycg.cginc"
+  
+              struct appdata
+              {
+                  float4 vertex : POSITION;
+                  float2 uv : TEXCOORD0;
+              };
+  
+              struct v2f
+              {
+                  float4 vertex : SV_POSITION;
+                  float2 uv : TEXCOORD0;
+              };
+              float4 _Color;
+              sampler2D _MainTex;
+              sampler2D _Noistex;
+              float4 _Vector;
+              float _Ton;
+              float4 _Speed;
+  
+              v2f vert(appdata v)
+              {
+                  v2f o;
+                  o.vertex = UnityObjectToClipPos(v.vertex);
+                  o.uv = v.uv + _Vector.xy + _Vector.zw ;
+                  return o;
+              }
+  
+              float4 frag (v2f i) : SV_Target
+              {
+                  half Maintex = tex2D(_MainTex,i.uv + _Time.y * _Speed.xy);
+                  half nois = tex2D (_Noistex,i.uv + _Time.y * _Speed.zw);
+                  clip(Maintex - nois - _Ton);
+                  return Maintex.xxxx;
+              }
+              
+              ENDCG
+          }
+      }
+  }
+  ```
+
+  
+
+- 半透明混合（问题以及解决方案）
+
+  关闭深度写入
+
+  打开半透明混合
+
+  渲染队列排序
+
+  ```
+  shader "Unit/ceshi"
+  {
+      Properties
+      {
+          _Color("Color",Color) = (1,1,1,1)
+          _MainTex("MainTex",2D) = "white"
+  //        _Noistex("Noistex",2D) = "white"
+  //        _Vector("Vector",Vector) = (0,0,0,0)
+  //        _Ton("Ton",Float) = 0.0
+          _Emiss("Emiss",Float) = 1.0
+  //        _Speed("Speed",Vector) = (0,0,0,0)
+      }
+      SubShader
+      {
+          ZWrite Off
+          Blend SrcAlpha OneMinusSrcAlpha
+          Pass
+          {
+              CGPROGRAM
+              #pragma vertex vert
+              #pragma  fragment frag
+              #include "Unitycg.cginc"
+  
+              struct appdata
+              {
+                  float4 vertex : POSITION;
+                  float2 uv : TEXCOORD0;
+              };
+  
+              struct v2f
+              {
+                  float4 vertex : SV_POSITION;
+                  float2 uv : TEXCOORD0;
+              };
+              float4 _Color;
+              sampler2D _MainTex;
+              sampler2D _Noistex;
+              float4 _Vector;
+              float _Ton;
+              float4 _Speed;
+              float _Emiss;
+  
+              v2f vert(appdata v)
+              {
+                  v2f o;
+                  o.vertex = UnityObjectToClipPos(v.vertex);
+                  o.uv = v.uv + _Vector.xy + _Vector.zw ;
+                  return o;
+              }
+  
+              float4 frag (v2f i) : SV_Target
+              {
+                  // half Maintex = tex2D(_MainTex,i.uv + _Time.y * _Speed.xy);
+                  // half nois = tex2D (_Noistex,i.uv + _Time.y * _Speed.zw);
+                  // clip(Maintex - nois - _Ton);
+                  half3 col = _Color.xyz * _Emiss;
+                  half alpha = saturate(tex2D(_MainTex,i.uv).r * _Color .a * _Emiss);
+                  return float4(col,alpha);
+              }
+              
+              ENDCG
+          }
+      }
+  }
+  ```
+
+- 边缘光Shader案例
+
+  知识点：
+
+  - 计算摄像机和物体之间的点乘结果计算物体边缘
+  - 边缘与中心的光源渐变
+  - 预先写深度
+
+  ```
+  Shader "Unit/Rim"
+  {
+      Properties
+      {
+          _MainColor("MinColor",Color) = (1,1,1,1)
+          _Emiss("Emiss",Float) = 0.0
+          _Power("Power",Float) = 0.0
+      }
+      SubShader
+      {
+          Tags {"Queue" = "Transparent"}
+          //预先写深度的pass
+          Pass
+          {
+              Cull Off
+              ZWrite On
+              ColorMask 0
+              CGPROGRAM
+              float4 _Color;
+              #pragma vertex vert
+              #pragma fragment frag
+              float4 vert(float4 vertexPos : POSITION) : SV_POSITION
+              {
+                  return UnityObjectToClipPos(vertexPos);
+              }
+              float4 frag(void) : COLOR
+              {
+                  return _Color;
+              }
+              
+              ENDCG
+          }
+          Pass
+          {
+              ZWrite On
+              Blend SrcAlpha One
+              CGPROGRAM
+              #pragma vertex vert
+              #pragma fragment frag
+              #include "UnityCG.cginc"
+  
+              struct appdata
+              {
+                  float4 vertex : POSITION;
+                  float3 normal : NORMAL;
+                  float2 uv : TEXCOORD0;
+              };
+              struct v2f
+              {
+                  float4 vertex : SV_POSITION;
+                  float3 normal_world : NORMAL;
+                  float2 pos_uv : TEXCOORD0;
+                  float3 view_world : TEXCOORD1;
+              };
+              float4 _MainColor;
+              float _Emiss;
+              float _Power;
+  
+              v2f vert(appdata v)
+              {
+                  v2f o;
+                  o.vertex = UnityObjectToClipPos(v.vertex);
+                  o.pos_uv = v.uv;
+                  o.normal_world =normalize( mul(float4(v.normal,0.0),unity_WorldToObject).xyz); //计算世界法线
+                  float3 pos_world = mul(unity_ObjectToWorld,v.vertex).xyz;
+                  o.view_world = normalize(_WorldSpaceCameraPos.xyz - pos_world) ; //计算摄像机的世界法线
+                  return o;
+              }
+  
+              float4 frag(v2f i) : SV_Target
+              {
+                  half3 normal_world = normalize( i.normal_world);
+                  half3 view_world = normalize( i.view_world);
+                  half NdotV = saturate(dot(normal_world,view_world)) ;
+                  half3 col = _MainColor.xyz *_Emiss;
+                  float fresnel = pow((1.0 - NdotV) , _Power );
+                  half alpha =saturate(fresnel *_Emiss); 
+                  return float4(col,alpha);
+              }
+              ENDCG
+  ```
+
+  
 

@@ -9,7 +9,7 @@ links:
           link: https://xiangtian.online # 友链地址
           descr: 小工作室 # 友链简介
           avatar: https://xiangtian.online/wp-content/uploads/2024/09/cropped-%E6%83%B3%E5%A4%A9%E5%B7%A5%E4%BD%9C%E5%AE%A4-192x192.png # 显示头像
-          topimg: http://img.maoxiang.site/Blog/20241214155143868.png # 如果是card模式下，将显示
+          topimg: http://img.maoxiang.site/Blog/posts/20241214155143868.png # 如果是card模式下，将显示
           tag: 工作室
           color: vip
    - class_name: 在线工具

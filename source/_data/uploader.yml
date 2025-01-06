@@ -8,7 +8,7 @@ links:
         - name: -不捣药的玉兔- # 友链名称
           link: https://space.bilibili.com/634931989?spm_id_from=333.999.0.0 # 友链地址
           descr: 半路出家程序媛，立志成为Shader渲染小能手 # 友链简介
-          avatar: https://source.unsplash.com/random/800x600
+          avatar: /Blog/links/uploader/20241217113016899.avif
           topimg: https://ui.everfu.cn/siteshot/202408280110974.png/siteshot # 如果是card模式下，将显示
           tag: B站UP
           color: vip
@@ -16,7 +16,7 @@ links:
         - name: Kerry佬 # 友链名称
           link: https://space.bilibili.com/4435618?spm_id_from=333.999.0.0 # 友链地址
           descr: Tiktop artists，合作请联系qq：453157180 # 友链简介
-          avatar: http://img.maoxiang.site/Blog/20241214151826480.jpg # 显示头像
+          avatar: /Blog/links/uploader/20241214151826480.avif # 显示头像
           topimg: https://ui.everfu.cn/siteshot/202408280110974.png/siteshot # 如果是card模式下，将显示
           tag: B站UP
           color: vip  
@@ -24,7 +24,7 @@ links:
         - name: 业余蚊子 # 友链名称
           link: https://space.bilibili.com/2732704?spm_id_from=333.999.0.0 # 友链地址
           descr: 编程与绘画——满足创造事物的纯粹快乐中最易于驾驭的介质。 # 友链简介
-          avatar: http://img.maoxiang.site/Blog/20241214151246672.jpg # 显示头像
+          avatar: /Blog/links/uploader/20241214151246672.avif # 显示头像
           topimg: https://ui.everfu.cn/siteshot/202408280110974.png/siteshot # 如果是card模式下，将显示
           tag: B站UP
           color: speed
@@ -32,7 +32,7 @@ links:
         - name: 墨化科技 # 友链名称
           link: https://space.bilibili.com/1879281116?spm_id_from=333.999.0.0 # 友链地址
           descr: 你想了解的课程与团队动态都在：www.motzify.com # 友链简介
-          avatar: http://img.maoxiang.site/Blog/20241214151524340.jpg # 显示头像
+          avatar: /Blog/links/uploader/20241214151524340.avif # 显示头像
           topimg: https://ui.everfu.cn/siteshot/202408280110974.png/siteshot # 如果是card模式下，将显示
           tag: B站UP
           color: speed
@@ -40,7 +40,7 @@ links:
         - name: 小猴哥TA # 友链名称
           link: https://space.bilibili.com/208300745?spm_id_from=333.999.0.0 # 友链地址
           descr: 前原神TA，前网易米哈游资深技术美术，分享游戏行业干货，TA技能学习 # 友链简介
-          avatar: http://img.maoxiang.site/Blog/20241214152020963.jpg # 显示头像
+          avatar: /Blog/links/uploader/20241214152020963.avif # 显示头像
           topimg: https://ui.everfu.cn/siteshot/202408280110974.png/siteshot # 如果是card模式下，将显示
           tag: B站UP
           color: speed
@@ -48,7 +48,7 @@ links:
         - name: 霜狼_may # 友链名称
           link: https://space.bilibili.com/7398208?spm_id_from=333.999.0.0 # 友链地址
           descr: 我有个梦想，想让行业变得更好，想改变这个行业草台班子为主的现状，想让大家的工作更加容易一些。 # 友链简介
-          avatar: http://img.maoxiang.site/Blog/20241214152213424.jpg # 显示头像
+          avatar: /Blog/links/uploader/20241214152213424.avif # 显示头像
           topimg: https://ui.everfu.cn/siteshot/202408280110974.png/siteshot # 如果是card模式下，将显示
           tag: B站UP
           color: speed
@@ -56,7 +56,7 @@ links:
         - name: 多面匠 # 友链名称
           link: https://space.bilibili.com/514859995?spm_id_from=333.999.0.0 # 友链地址
           descr: 技术美术、图形学、游戏引擎、数学…… # 友链简介
-          avatar: http://img.maoxiang.site/Blog/20241214152255918.jpg # 显示头像
+          avatar: /Blog/links/uploader/20241214152255918.avif # 显示头像
           topimg: https://ui.everfu.cn/siteshot/202408280110974.png/siteshot # 如果是card模式下，将显示
           tag: B站UP
           color: 
@@ -69,7 +69,7 @@ links:
         - name: 只剩一瓶辣椒酱 # 友链名称
           link: https://space.bilibili.com/35723238?spm_id_from=333.999.0.0 # 友链地址
           descr: 只剩一瓶辣椒酱，blender # 友链简介
-          avatar: http://img.maoxiang.site/Blog/20241214152609104.jpg # 显示头像
+          avatar: /Blog/links/uploader/20241214152609104.avif # 显示头像
           topimg: https://ui.everfu.cn/siteshot/202408280110974.png/siteshot # 如果是card模式下，将显示
           tag: B站UP
           color: vip
@@ -77,7 +77,7 @@ links:
         - name: 栗子酱爱做游戏 # 友链名称
           link: https://space.bilibili.com/21016409?spm_id_from=333.999.0.0 # 友链地址
           descr: ⭐️用有趣的风格，分享3D知识 ⭐️中央美术学院特聘讲师 ⭐️游戏行业从业15年,参与多款项目的研发 ⭐️私信合作请说明来意 # 友链简介
-          avatar: http://img.maoxiang.site/Blog/20241214152700267.jpg # 显示头像
+          avatar: /Blog/links/uploader/20241214152700267.avif # 显示头像
           topimg: https://ui.everfu.cn/siteshot/202408280110974.png/siteshot # 如果是card模式下，将显示
           tag: B站UP
           color: vip
@@ -85,7 +85,7 @@ links:
         - name: 东哥教你雕模型 # 友链名称
           link: https://space.bilibili.com/10299872?spm_id_from=333.999.0.0 # 友链地址
           descr: 游塑学院创始人，前游戏大厂主美，14年从业经验，交流群：595035008 # 友链简介
-          avatar: http://img.maoxiang.site/Blog/20241214152934361.jpg # 显示头像
+          avatar: /Blog/links/uploader/20241214152934361.avif # 显示头像
           topimg: https://ui.everfu.cn/siteshot/202408280110974.png/siteshot # 如果是card模式下，将显示
           tag: B站UP
           color: vip
@@ -93,7 +93,7 @@ links:
         - name: DumbKitten大脸喵 # 友链名称
           link: https://space.bilibili.com/294170915?spm_id_from=333.999.0.0 # 友链地址
           descr: 和你分享3D美术技术，以及能帮助到你的小技巧！有任何想要了解的技术，请留言告诉我，我会尽我所能，制作视频分享给你！ # 友链简介
-          avatar: http://img.maoxiang.site/Blog/20241214152814862.jpg # 显示头像
+          avatar: /Blog/links/uploader/20241214152814862.avif # 显示头像
           topimg: https://ui.everfu.cn/siteshot/202408280110974.png/siteshot # 如果是card模式下，将显示
           tag: B站UP
           color: speed
@@ -103,7 +103,7 @@ links:
         - name: 嗨趣学heronuke # 友链名称
           link: https://space.bilibili.com/38388414?spm_id_from=333.999.0.0 # 友链地址
           descr: 官网：www.heronuke.com 微信订阅号：heronuke # 友链简介
-          avatar: http://img.maoxiang.site/Blog/20241214153134690.jpg # 显示头像
+          avatar: /Blog/links/uploader/20241214153134690.avif # 显示头像
           topimg: https://ui.everfu.cn/siteshot/202408280110974.png/siteshot # 如果是card模式下，将显示
           tag: B站UP
           color: speed
@@ -111,7 +111,7 @@ links:
         - name: Blender地势坤 # 友链名称
           link: https://space.bilibili.com/3494374235179579?spm_id_from=333.999.0.0 # 友链地址
           descr: 佛系更新 商务合作W：blenderrrrrr # 友链简介
-          avatar: http://img.maoxiang.site/Blog/20241214153218628.jpg # 显示头像
+          avatar: /Blog/links/uploader/20241214153218628.avif # 显示头像
           topimg: https://ui.everfu.cn/siteshot/202408280110974.png/siteshot # 如果是card模式下，将显示
           tag: B站UP
           color: speed
@@ -124,64 +124,64 @@ links:
         - name: 星有野 # 友链名称
           link: https://space.bilibili.com/627888730?spm_id_from=333.999.0.0 # 友链地址
           descr: 用漫画描绘人生的艺术家，人间自有真情在# 友链简介
-          avatar: http://img.maoxiang.site/Blog/20241214153300489.jpg # 显示头像
-          topimg: /20241214003308119.jpg # 如果是card模式下，将显示
+          avatar: /Blog/links/uploader/20241214153300489.avif # 显示头像
+          topimg: /20241214003308119.avif # 如果是card模式下，将显示
           tag: B站UP
           color: vip
 
         - name: 666K信譞 # 友链名称
           link: https://space.bilibili.com/7940147?spm_id_from=333.999.0.0 # 友链地址
           descr: 用漫画描绘人生的艺术家# 友链简介
-          avatar: http://img.maoxiang.site/Blog/20241214153352378.jpg # 显示头像
-          topimg: /20241214003308119.jpg # 如果是card模式下，将显示
+          avatar: /Blog/links/uploader/20241214153352378.avif # 显示头像
+          topimg: /20241214003308119.avif # 如果是card模式下，将显示
           tag: B站UP
           color: vip
 
         - name: -TEAMOO- # 友链名称
           link: https://space.bilibili.com/230875249?spm_id_from=333.999.0.0 # 友链地址
           descr: 高效解说、厚涂 # 友链简介
-          avatar: http://img.maoxiang.site/Blog/20241214153623573.jpg # 显示头像
-          topimg: /20241214003308119.jpg # 如果是card模式下，将显示
+          avatar: /Blog/links/uploader/20241214153623573.avif # 显示头像
+          topimg: /20241214003308119.avif # 如果是card模式下，将显示
           tag: B站UP
           color: vip
 
         - name: DM袋喵 # 友链名称
           link: https://space.bilibili.com/26344439?spm_id_from=333.999.0.0 # 友链地址
           descr: 虚弱中登罢了 全网同名 课咨询群961114764 # 友链简介
-          avatar: http://img.maoxiang.site/Blog/20241214153731764.jpg # 显示头像
-          topimg: /20241214003308119.jpg # 如果是card模式下，将显示
+          avatar: /Blog/links/uploader/20241214153731764.avif # 显示头像
+          topimg: /20241214003308119.avif # 如果是card模式下，将显示
           tag: B站UP
           color: vip
           
         - name: 星星鸽子 # 友链名称
           link: https://space.bilibili.com/35232167?spm_id_from=333.999.0.0 # 友链地址
           descr: 画画总是很开心，不要嫉妒我哦 # 友链简介
-          avatar: http://img.maoxiang.site/Blog/20241214153808031.jpg # 显示头像
-          topimg: /20241214003308119.jpg # 如果是card模式下，将显示
+          avatar: /Blog/links/uploader/20241214153808031.avif # 显示头像
+          topimg: /20241214003308119.avif # 如果是card模式下，将显示
           tag: B站UP
           color: 
 
         - name: 米雷-RayDog # 友链名称
           link: https://space.bilibili.com/617394761?spm_id_from=333.999.0.0 # 友链地址
           descr: 就一画画儿的 不接个人画单 画不授权-米雷老师 # 友链简介
-          avatar: http://img.maoxiang.site/Blog/20241214153912167.jpg # 显示头像
-          topimg: /20241214003308119.jpg # 如果是card模式下，将显示
+          avatar: /Blog/links/uploader/20241214153912167.avif # 显示头像
+          topimg: /20241214003308119.avif # 如果是card模式下，将显示
           tag: B站UP
           color: vip
 
         - name: 龚老师课堂 # 友链名称
           link: https://space.bilibili.com/98828888?spm_id_from=333.999.0.0 # 友链地址
           descr: 专业影视、游戏、3D打印、手办等培训，欢迎咨询 # 友链简介
-          avatar: http://img.maoxiang.site/Blog/20241214153954712.jpg # 显示头像
-          topimg: /20241214003308119.jpg # 如果是card模式下，将显示
+          avatar: /Blog/links/uploader/20241214153954712.avif # 显示头像
+          topimg: /20241214003308119.avif # 如果是card模式下，将显示
           tag: B站UP
           color: 
 
         - name: 人体科学 # 友链名称
           link: https://space.bilibili.com/693659279?spm_id_from=333.999.0.0 # 友链地址
           descr: 健康科普｜人体透视｜视频定制 运动康复｜体态矫正｜师资培训 --公众号@人体科学 # 友链简介
-          avatar: http://img.maoxiang.site/Blog/20241214154028785.jpg # 显示头像
-          topimg: /20241214003308119.jpg # 如果是card模式下，将显示
+          avatar: /Blog/links/uploader/20241214154028785.avif # 显示头像
+          topimg: /20241214003308119.avif # 如果是card模式下，将显示
           tag: B站UP
           color: 
 
@@ -194,7 +194,7 @@ links:
           link: https://blog.zhheo.com/ # 友链地址
           descr: 基于Butterfly美化的硬实力B站UP # 友链简介
           avatar: https://blog.zhheo.com/apple-touch-icon.webp # 显示头像
-          topimg: http://img.maoxiang.site/Blog/20241213225441032.png # 如果是card模式下，将显示
+          topimg: /Blog/links/uploader/20241213225441032.avif # 如果是card模式下，将显示
           tag: 博主
           color: vip
 
@@ -202,15 +202,15 @@ links:
           link: https://everfu.github.io/solitude-demo/ # 友链地址
           descr: 基于heo博客开发的一个狂热的开源工作者 # 友链简介
           avatar: https://avatars.githubusercontent.com/u/74389842?v=4 # 显示头像
-          topimg: http://img.maoxiang.site/Blog/20241213225537709.png # 如果是card模式下，将显示
+          topimg: /Blog/links/uploader/20241213225537709.avif # 如果是card模式下，将显示
           tag: 博主
           color: s
 
         - name: 安知鱼 # 友链名称
           link: https://blog.anheyu.com/ # 友链地址
           descr: 基于heo博客开发的二次开发up主 # 友链简介
-          avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg # 显示头像
-          topimg: http://img.maoxiang.site/Blog/20241213225650017.png # 如果是card模式下，将显示
+          avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.avif # 显示头像
+          topimg: /Blog/links/uploader/20241213225650017.avif # 如果是card模式下，将显示
           tag: 博主
           color: s
 
@@ -222,16 +222,16 @@ links:
         - name: shenmi # 友链名称
           link: https://space.bilibili.com/1309819?spm_id_from=333.999.0.0 # 友链地址
           descr: 基于Butterfly美化的硬实力B站UP # 友链简介
-          avatar: http://img.maoxiang.site/Blog/20241214154112672.jpg # 显示头像
-          topimg: http://img.maoxiang.site/Blog/20241214154153316.png # 如果是card模式下，将显示
+          avatar: /Blog/links/uploader/20241214154112672.avif # 显示头像
+          topimg: /Blog/links/uploader/20241214154153316.png # 如果是card模式下，将显示
           tag: B站UP
           color: 
 
         - name: 玩屏开发者皮克斯 # 友链名称
           link: https://space.bilibili.com/167397379?spm_id_from=333.999.0.0 # 友链地址
           descr: 基于heo博客开发的一个狂热的开源工作者 # 友链简介
-          avatar: http://img.maoxiang.site/Blog/20241214154227280.jpg # 显示头像
-          topimg: http://img.maoxiang.site/Blog/20241214154254412.png # 如果是card模式下，将显示
+          avatar: /Blog/links/uploader/20241214154227280.avif # 显示头像
+          topimg: /Blog/links/uploader/20241214154254412.png # 如果是card模式下，将显示
           tag: B站UP
           color: 
         
