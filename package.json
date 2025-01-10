@@ -38,7 +38,7 @@
     "markdown-it-imsize": "^2.0.1",
     "puppeteer": "^23.10.4",
     "swpp-backends": "^3.0.0-alpha.702",
-    "uuid": "^7.0.3"
+    "uuid": "^11.0.5"
   },
   "devDependencies": {
     "compress": "^0.99.0",
