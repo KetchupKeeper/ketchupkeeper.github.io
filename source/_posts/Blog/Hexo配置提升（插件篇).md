@@ -1,12 +1,12 @@
 ---
 title: Hexo配置提升（插件篇）
-avatar: /tex/作者头像.png
 date: 2024-12-12 16:41:41
 tags:
   - Hexo使用
   - solitude主题
   - 博客技术笔记
   - Technology
+avatar: /T/作者头像.png
 cover: /tex/Hexo.avif
 desc:
 recommend:
@@ -17,7 +17,10 @@ Hexo配置提升（插件篇）
 
 ---
 
+::: t
+**提示**
 本章节讲的是关于提高Hexo使用体验和优化的插件内容，根据需求自行安装下载
+:::
 
 
 
@@ -32,9 +35,13 @@ Hexo配置提升（插件篇）
 
 
 
-## Markdown渲染器相关拓展
+## 一、Markdown渲染器相关拓展
 
-<br/>
+插件描述：
+
+<div id="paragraph"><p id="first"> 关于Markdown对于网页显示的新渲染器的相关拓展。<br>其中功能包括：<br></p></div>
+
++++ **插件详情**<br/>
 
 - 1、参考文章：[【Hexo】选择更高级的Markdown渲染器](https://blog.csdn.net/qq_42951560/article/details/123596899)
 
@@ -89,7 +96,7 @@ Hexo配置提升（插件篇）
   | markdown-it-mark     | 突出显示 | `==标记==`                  | 标记                                                         |
   | markdown-it-sub      | 下标     | `H~2~O`                     | H2O                                                          |
   | markdown-it-sup      | 上标     | `X^2^`                      | X2                                                           |
-  | markdown-it-checkbox | 复选框   | 未选：`- [ ]` 选中：`- [x]` | ![- [ ] 未选  - [x] 选中](/Blog/posts/20241212164515192.avif)      |
+  | markdown-it-checkbox | 复选框   | 未选：`- [ ]` 选中：`- [x]` | ![- [ ] 未选  - [x] 选中](/Blog/posts/2024-12/20241212164515192.avif) |
 
   
 
@@ -100,3 +107,6 @@ Hexo配置提升（插件篇）
 这是一个成功信号
 
 :::
+
++++
+

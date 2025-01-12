@@ -48,7 +48,7 @@ nav:
       全部文章: /archives/ || fas fa-folder-closed # item name: link || icon
       全部分类: /categories/ || fas fa-clone
       全部标签: /tags/ || fas fa-tags
-      书库: /tags/pdf || iconfont icon-a-xuexi2
+      书库: / || iconfont icon-a-xuexi2
     专题:
       技术美术: /tags/TA || iconfont icon-youshi1
       学习计划: /tags/学习计划 || iconfont icon-celianggongju1 
@@ -155,7 +155,7 @@ hometop:
         color: "#1e3101"
   group:
      预设模版: /tags/预设模版/ || fas fa-fire || linear-gradient(to right,#f65,#ffbf37)
-     技术笔记: /tags/问题/ || iconfont icon-zhishi || linear-gradient(to right,#3d9dff,#2b63d5)
+     技术笔记: /tags/技术笔记/ || iconfont icon-zhishi || linear-gradient(to right,#3d9dff,#2b63d5)
   recommendList:
     enable: true
     sup: 卯相的小破站

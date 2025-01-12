@@ -1,11 +1,10 @@
 ---
 title: HTML+CSS+JS学习内容
 tags:
-  - TA
+  - 前端学习
+  - 编程
   - Technology
-  - 问题
-  - 预设模版
-  - 工具
+  - 技术笔记
 avatar: /T/文章头像.png
 cover: /tex/H-C-J.avif
 desc: 番茄酱守护者

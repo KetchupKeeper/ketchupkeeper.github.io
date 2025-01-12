@@ -4,7 +4,7 @@ date: {{ date }}
 tags:
 - TA
 - Technology
-- 问题
+- 技术笔记
 - 预设模版
 - 工具
 - 学习计划

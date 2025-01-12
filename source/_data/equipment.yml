@@ -16,7 +16,7 @@
       - name: AMD 锐龙 R9-7900X（CPU）
         specification: 12核心  24线程  
         description: 不配置Bios温度偏高，小白驾驭的话需要点学习成本，处理性能优秀，和N卡协同渲染效率低，建议有N卡的用户取消CPU渲染勾选。
-        image: https://www.notebookcheck.net/uploads/tx_nbc2/R9_7900_9.jpg
+        image: /Blog/equipment/R9_7900_9.avif
         link: https://support.apple.com/kb/SP832?locale=zh_CN
 
       - name: 七彩虹战斧 NVIDA RTX 3070Ti 显卡
@@ -58,7 +58,7 @@
       - name: 三星(SAMSUNG) 显示器
         specification: 32英寸2K165HZ显示屏高刷游戏电竞曲面电脑显示器 黑色 曲面
         description: 显示效果不错，但是不算是设计级别，色差较明显。
-        image: /Blog/equipment/20241215194605267.avif
+        image: /Blog/equipment/三星(SAMSUNG).avif
         link: https://item.jd.com/100088581084.html
 
       - name: ASUSHOM 显示器
@@ -132,7 +132,7 @@
      - name: 红米note10
        specification: 二手 5G 8+256 竹石青
        description: 作为备用机性价比高。
-       image: /Blog/equipment/20241215194447578.avif
+       image: /Blog/equipment/note10.avif
        link: https://www.apple.com.cn/airpods-pro/
 
      - name: 小米加大码加热鼠标垫

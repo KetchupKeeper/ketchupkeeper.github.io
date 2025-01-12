@@ -3,7 +3,7 @@ title: Halo问题合集
 tags:
   - 博客
   - Technology
-  - 问题
+  - 技术笔记
   - Halo
   - 解决方案
 avatar: /T/文章头像.png

@@ -1,6 +1,5 @@
 ---
 title: Solitude主题解析
-avatar: /tex/作者头像.png
 date: 2024-12-11 14:07:45
 tags:
   - Hexo使用
@@ -9,6 +8,7 @@ tags:
   - HTML
   - CSS
   - JS
+avatar: /T/作者头像.png
 cover: /tex/Hexo.avif
 desc:
 recommend:
