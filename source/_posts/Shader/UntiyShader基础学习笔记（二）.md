@@ -1,5 +1,5 @@
 ---
-title: UnityShader学习笔记（二）.
+title: UntiyShader基础学习笔记（二）.
 tags:
   - Unity
   - Shader
