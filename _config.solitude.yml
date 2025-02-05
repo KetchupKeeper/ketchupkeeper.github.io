@@ -50,6 +50,7 @@ nav:
       全部标签: /tags/ || fas fa-tags
       书库: / || iconfont icon-a-xuexi2
     专题:
+      我不是食神: /tags/烹饪日常 || iconfont icon-pengren
       技术美术: /tags/TA || iconfont icon-youshi1
       学习计划: /tags/学习计划 || iconfont icon-celianggongju1 
       年度总结: /tags/年度总结 || iconfont icon-niandujihua
@@ -62,8 +63,10 @@ nav:
       关于本站: /about/ || iconfont icon-guanyuwomen
       我的装备: /equipment/ || fas fa-laptop
       音乐馆: /music/ || fas fa-music
-    简历: /Curriculum Vitae/index.html
-    测试: /测试/index.html
+    简历: 
+      我的简历: /Curriculum Vitae/index.html || iconfont icon-jianli
+      测试: /annual-report/
+
 
   # Right button
   # 右侧按钮
@@ -864,7 +867,7 @@ extends:
   # Insert in head
   # 插入到 head
   head:
-    - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_4775664_3q3uz1o15vk.css" />
+    - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_4775664_726a02jf35o.css" />
     - <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
     - <script>LA.init({id:"3Kcas37IJ3xJJWsX",ck:"3Kcas37IJ3xJJWsX"})</script>
     - |
