@@ -415,7 +415,7 @@ post:
     enable: true
     list:
       - qq
-      - weibo
+      # - weibo
       - twitter
       - facebook
       - telegram
@@ -867,7 +867,7 @@ extends:
   # Insert in head
   # 插入到 head
   head:
-    - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_4775664_726a02jf35o.css" />
+    - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_4775664_13afclisvesp.css" />
     - <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
     - <script>LA.init({id:"3Kcas37IJ3xJJWsX",ck:"3Kcas37IJ3xJJWsX"})</script>
     - |

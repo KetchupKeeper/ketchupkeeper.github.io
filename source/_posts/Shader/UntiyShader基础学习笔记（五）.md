@@ -37,3 +37,21 @@ date: 2025-02-03 16:12:18
 需要开启Blende Mode中的Alpha Test  才能开启Opacity Mask接口
 
 Opacity Mask（遮罩裁剪）
+
+权重 范围
+
+vertex normal
+
+取两者之间最大的一个结果
+
+power（提高对比度，黑白对比）
+
+### 一、前期设置
+
+### 二、技术实现和技术解析
+
+### 三、顶点动画实现效果
+
+#### 1、UnityShaderASE实现方式
+
+#### 2、UnityShader代码实现方式
