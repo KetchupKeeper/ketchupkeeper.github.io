@@ -23,7 +23,18 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- page title -->
     <title>Wasker</title>
-
+    <style>
+        .qr-code-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px; /* 调整图片间距 */
+        }
+        .qr-code-container img {
+            width: 150px; /* 调整图片宽度 */
+            height: auto; /* 保持图片比例 */
+        }
+    </style>
 </head>
 
 <body class="mil-half-page">
@@ -76,7 +87,12 @@
                                         </div>
                                     </div>
                                     <div class="mil-space-90 mil-p-0-75">
-                                        <form><p>微信: l1944323195<br>QQ: 1944323195 <br>邮箱: 1944323195@qq.com</p>
+                                        <form>
+                                            <div class="qr-code-container">
+                                                <img src="img-dark/ui/qq-code.avif" alt="QQ二维码">
+                                                <img src="img-dark/ui/wechat-code.avif" alt="微信二维码">
+                                            </div>
+                                            <!-- <p>微信: l1944323195<br>QQ: 1944323195 <br>邮箱: 1944323195@qq.com</p> -->
                                             <!-- <div class="row mil-aic">
                                                 <div class="col-sm-6 mil-mb-15">
                                                     <div class="mil-input-frame mil-up">
@@ -122,11 +138,11 @@
                                     <div class="mil-jcb mil-w-100">
                                         <a href="#." class="mil-icon-text" data-no-swup target="_blank">
                                             <i class="fab fa-whatsapp"></i>
-                                            <div class="mil-link">+38 (088) 133 XX 49</div>
+                                            <div class="mil-link">+86 15*****033</div>
                                         </a>
                                         <a href="mailto:your.mail@here.com" class="mil-icon-text" data-no-swup target="_blank">
                                             <i class="fal fa-at"></i>
-                                            <div class="mil-link">archer@mail.com</div>
+                                            <div class="mil-link">1944323195@qq.com</div>
                                         </a>
                                     </div>
                                 </div>

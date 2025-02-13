@@ -141,8 +141,53 @@ Pass
         ENDCG // Shader代码从这里结束
 ```
 
-## 四、参数公式模版
+## 四、片元、顶点Shader参数公式模版
 
-### 1、模型的世界法线World Normal
+### 1、计算模型的世界法线World Normal
 
-### 2、模型的世界空间World Position
+```
+o.normal_World = normalize(mul(float4(v.normal,0.0),Unity_WorldToObject).xyz);
+```
+
+### 2、计算模型的世界空间World Position
+
+```
+o.pos_world = mul(unity_ObjectToWorld,v.vertex).xyz;
+```
+
+#### 3、视线方向（摄像机朝向）
+
+```
+float3 view_dir = normalize(_WorldSpaceCameraPos.xyz - i.pos_World);
+```
+
+#### 4、光照的方向信息
+
+```
+float3 light_dir = normalize(_WorldSpaceLightPos0.xyz);
+```
+
+#### 5、光反射方向信息
+
+```
+float3 reflect_dir = reflect(-light_dir,Normal_dir);
+```
+
+
+
+### 五、光照模型
+
+```
+Pass
+{
+	Tags{"LightMode" = "ForwardBase"}  //光照模型必须要有的其一
+	CGPROGRAM
+	#pragma vertex vert
+	#pragma fragment frag
+	#pragma multi_compile_fwdbase		//光照模型必须要有的其二
+	#include "UnityCG.cginc"
+	#include "AutoLight.cginc"			//光照模型必须要有的其三
+	
+}
+```
+
