@@ -117,7 +117,7 @@ date: 2025-02-08 22:28:15
 
 ### 四、ShadowMap实时阴影技术
 
-![image-20250212174846291](../../../themes/solitude/source/Blog/posts/2025-2/image-20250212174846291.png)
+![image-20250212174846291](/Blog/posts/2025-2/image-20250212174846291.avif)
 
-![image-20250212175003101](../../../themes/solitude/source/Blog/posts/2025-2/image-20250212175003101.png)
+![image-20250212175003101](/Blog/posts/2025-2/image-20250212175003101.avif)
 

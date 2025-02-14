@@ -38,7 +38,7 @@ date: 2025-02-08 11:58:15
 
 #### 1、Phong光照模型原理
 
-![Phong光照模型计算参考图](../../../themes/solitude/source/Blog/posts/2025-2/image-20250208122207119.png)
+![Phong光照模型计算参考图](/Blog/posts/2025-2/image-20250208122207119.avif)
 
 - **Diffuse漫反射计算：**
   - Diffuse特点：反射模型主要颜色，根据光源（light source）照射方向决定颜色强度。
@@ -52,7 +52,7 @@ date: 2025-02-08 11:58:15
 
 #### 2、光照模型基本框架
 
-![光照计算思维图](../../../themes/solitude/source/Blog/posts/2025-2/image-20250208122404687.png)
+![光照计算思维图](/Blog/posts/2025-2/image-20250208122404687.avif)
 
 ### 二、Frame Debug（帧调试器）工具的使用
 
@@ -78,19 +78,19 @@ date: 2025-02-08 11:58:15
 
 1. 查看着色器属性值
 
-   ![对于绘制调用，帧调试器还可以显示所用的着色器属性 值。单击“Shader Properties”选项卡即可显示属性：](../../../themes/solitude/source/Blog/posts/2025-2/FrameDebugShaderProperties-1739064052915-3.jpg)
+   ![对于绘制调用，帧调试器还可以显示所用的着色器属性 值。单击“Shader Properties”选项卡即可显示属性：](/Blog/posts/2025-2/FrameDebugShaderProperties-1739064052915-3.jpg)
 
 2. 逐帧查看渲染细节的方式
 
-   ![Frame Debug参考图](../../../themes/solitude/source/Blog/posts/2025-2/image-20250209093056576.png)
+   ![Frame Debug参考图](/Blog/posts/2025-2/image-20250209093056576.avif)
 
    - Shadows.RenderShadowMap和RenderForwardOpaque.CollectShadow都是绘制阴影的
 
-     ![阴影绘制](../../../themes/solitude/source/Blog/posts/2025-2/image-20250209093640836.png)
+     ![阴影绘制](/Blog/posts/2025-2/image-20250209093640836.avif)
 
    - RenderForward.RenderLoopJob是绘制灯光的
 
-     ![灯光绘制](../../../themes/solitude/source/Blog/posts/2025-2/image-20250209093703852.png)
+     ![灯光绘制](/Blog/posts/2025-2/image-20250209093703852.avif)
 
 3. 
 
@@ -98,7 +98,7 @@ date: 2025-02-08 11:58:15
 
 ### 三、光照计算内容
 
-![光照计算思维图](../../../themes/solitude/source/Blog/posts/2025-2/image-20250208122404687.png)
+![光照计算思维图](/Blog/posts/2025-2/image-20250208122404687.avif)
 
 ### 二、Render Path渲染路径
 
@@ -115,18 +115,18 @@ date: 2025-02-08 11:58:15
 | **内存占用**     | 较低，主要取决于纹理和材质                                   | 较高，需要存储多个G-Buffer纹理                               |
 | **实现复杂度**   | 简单，易于实现和调试                                         | 较复杂，需要处理G-Buffer和光照Pass                           |
 
-![Render Path渲染路径](../../../themes/solitude/source/Blog/posts/2025-2/image-20250208131046737.png)
+![Render Path渲染路径](/Blog/posts/2025-2/image-20250208131046737.avif)
 
 #### 1、Forward 前向渲染
 
-![前向渲染的灯光模型](../../../themes/solitude/source/Blog/posts/2025-2/image-20250209094527141.png)
+![前向渲染的灯光模型](/Blog/posts/2025-2/image-20250209094527141.avif)
 
 1. 对于灯光渲染，前向渲染是以物体为单位，一遍一遍将所有灯光效果一个一个渲染到物体上然后开始下一个物体渲染灯光
 
 2. 关于Forward前向渲染的消耗问题，引擎对它的灯光数量是有限制的
    - 可以到项目设置（Project Settings > Quality > Rendering > Pixel Light Count）中修改灯光数量
 
-![项目设置位置参考](../../../themes/solitude/source/Blog/posts/2025-2/image-20250209094322048.png)
+![项目设置位置参考](/Blog/posts/2025-2/image-20250209094322048.avif)
 
 3. 内置渲染管线Built-in和URP之间的区别
 
