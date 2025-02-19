@@ -34,7 +34,7 @@ UnityShader模版，主要做提示和参考用。
 
 ## 1、数据类型的使用场景
 
-```
+```hlsl
 float
 half
 
@@ -44,7 +44,7 @@ half
 
 ###  2、常用属性实例
 
-```
+```hlsl
 Properties //实例属性，实例在材质面板上的属性
     {
         _Float("Float",Float) = 0.0                     //浮点类型实例
@@ -60,7 +60,7 @@ Properties //实例属性，实例在材质面板上的属性
 
 ## 二、SubShader （子材质属性模版）
 
-```
+```hlsl
 SubShader
 	{
 		Tags { "RenderType"="Opaque" } 
@@ -74,7 +74,7 @@ SubShader
 
 ## 三、Pass
 
-```
+```hlsl
 Pass 
     {
         CGPROGRAM 										    // Shader代码从这里开始
@@ -145,31 +145,31 @@ Pass
 
 ### 1、计算模型的世界法线World Normal
 
-```
+```hlsl
 o.normal_World = normalize(mul(float4(v.normal,0.0),Unity_WorldToObject).xyz);
 ```
 
 ### 2、计算模型的世界空间World Position
 
-```
+```hlsl
 o.pos_world = mul(unity_ObjectToWorld,v.vertex).xyz;
 ```
 
 #### 3、视线方向（摄像机朝向）
 
-```
+```hlsl
 float3 view_dir = normalize(_WorldSpaceCameraPos.xyz - i.pos_World);
 ```
 
 #### 4、光照的方向信息
 
-```
+```hlsl
 float3 light_dir = normalize(_WorldSpaceLightPos0.xyz);
 ```
 
 #### 5、光反射方向信息
 
-```
+```hlsl
 float3 reflect_dir = reflect(-light_dir,Normal_dir);
 ```
 
@@ -177,7 +177,7 @@ float3 reflect_dir = reflect(-light_dir,Normal_dir);
 
 ### 五、光照模型
 
-```
+```hlsl
 Pass
 {
 	Tags{"LightMode" = "ForwardBase"}  //光照模型必须要有的其一

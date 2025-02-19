@@ -93,7 +93,7 @@ Unity ASE（Amplify Shader Editor）是一个强大的着色器编辑插件，�
 
 1. 获取World Normal（模型世界空间下的法线）
 
-   ```
+   ```hlsl
    
    struct v2f
    {
@@ -122,7 +122,7 @@ Unity ASE（Amplify Shader Editor）是一个强大的着色器编辑插件，�
 
 2. 获取World Position （模型世界位置）
 
-   ```
+   ```hlsl
    
    struct v2f
    {
@@ -150,7 +150,7 @@ Unity ASE（Amplify Shader Editor）是一个强大的着色器编辑插件，�
 
 3. 获取View Dir （摄像机的法线）
 
-   ```
+   ```hlsl
    
    struct v2f
    {

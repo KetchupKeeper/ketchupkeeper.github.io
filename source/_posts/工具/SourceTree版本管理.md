@@ -14,11 +14,13 @@ published:
 
 ---
 
+**本篇文章学习目标：**
+
 B站学习视频地址:(https://www.bilibili.com/video/BV1Ev411j7e5?t=215.7&p=2)
 
 
 
-环境配置：
+**环境配置：**
 
 - Git下载：[Windows安装git（全网最详细，保姆教程）](https://blog.csdn.net/weixin_42242910/article/details/136297201)
 

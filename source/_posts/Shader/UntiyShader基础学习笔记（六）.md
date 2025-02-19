@@ -139,7 +139,7 @@ ___
 
 1. 设置模版测试
 
-   ```
+   ```hlsl
    Pass
    {
    	Stencil
@@ -156,7 +156,7 @@ ___
 
 2. 设置颜色效果
 
-   ```
+   ```hlsl
    Pass
    {
    	ColorMask 0    //ColorMask R;ColorMask RG;ColorMask RGB;ColorMask RGBA
@@ -166,7 +166,7 @@ ___
 
 3. 关闭深度写入
 
-   ```
+   ```hlsl
    Pass
    {
    	ZWrite Off

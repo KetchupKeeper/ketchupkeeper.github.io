@@ -22,6 +22,14 @@ link(rel="icon", href=url_for(theme.site.icon))
 // index.css
 link(rel="stylesheet", href=url_for(theme.cdn.main_css))
 
+// 代码高亮支持
+if theme.highlight.enable
+  link(rel="stylesheet", href=url_for(theme.css) + '/highlight.css')
+  script(src=url_for(theme.js) + '/highlight.min.js')
+  script(src=url_for(theme.js) + '/unity-shader.js')
+  script.
+    hljs.initHighlightingOnLoad();
+
 // inject head
 include ./inject/head.pug
 

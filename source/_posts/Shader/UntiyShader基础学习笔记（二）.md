@@ -42,7 +42,7 @@ saturate() 		//归一化矢量，范围限制掉0-1
 
 ## 一、UnityShaderLab基本框架
 
-```UnityShader
+```hlsl
 Shader "123" //Shader Name  目录结构写法："CS01/123"
 {
     Properties //实例属性，实例在材质面板上的属性
@@ -75,7 +75,7 @@ Shader "123" //Shader Name  目录结构写法："CS01/123"
 
 ## 二、UnityShaderLab内容（示例）
 
-```UnityShader
+```hlsl
 Shader "CS02/MiniShader" //Shader的真正名字  可以是路径式的格式
 {
 	/*材质球参数及UI面板
@@ -180,7 +180,7 @@ Shader "CS02/MiniShader" //Shader的真正名字  可以是路径式的格式
 
 渲染常用设置：
 
-```UnityShader
+```hlsl
     Properties
     {
         _MinTex("MinTex",2D) = "black"{}
@@ -216,7 +216,7 @@ Shader "CS02/MiniShader" //Shader的真正名字  可以是路径式的格式
 
   本次示例学到了Time场景时间参数、clip参数的使用和控制UV的方式。
 
-  ```
+  ```hlsl
   shader "Unit/ceshi"
   {
       Properties
@@ -287,7 +287,7 @@ Shader "CS02/MiniShader" //Shader的真正名字  可以是路径式的格式
 
   渲染队列排序
 
-  ```
+  ```hlsl
   shader "Unit/ceshi"
   {
       Properties
@@ -362,7 +362,7 @@ Shader "CS02/MiniShader" //Shader的真正名字  可以是路径式的格式
   - 边缘与中心的光源渐变
   - 预先写深度
 
-  ```
+  ```hlsl
   Shader "Unit/Rim"
   {
       Properties
